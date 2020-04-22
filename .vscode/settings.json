@@ -1,0 +1,80 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSaveTimeout": 3000,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[graphql]": {
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.test.js": "javascript",
+    "*.js": "javascriptreact",
+    "*.test.ts": "typescript",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": true,
+    "**/.circleci": true,
+    "**/.drone": true,
+    "**/.terraform": true,
+    "**/.github": true,
+    "**/.cache": true,
+    "**/coverage": true,
+    "**/keyrings": true,
+    "**/service-cms/build": true,
+    "**/service-public-website/public": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "javascript.validate.enable": false,
+  "typescript.format.enable": false,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "stylelint.autoFix": true,
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "css",
+    "scss",
+    "less"
+  ],
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "npm.packageManager": "yarn",
+  "switcher.findSuffixOrder": [
+    ".js",
+    ".ts",
+    ".tsx",
+    ".test.js",
+    ".test.ts",
+    ".scss",
+    ".css"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

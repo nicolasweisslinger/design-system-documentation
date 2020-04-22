@@ -1,0 +1,8 @@
+@import '../tokens/colors.scss';
+
+.container {
+  > pre {
+    margin: 0 !important;
+    background-color: $background-code !important;
+  }
+}
