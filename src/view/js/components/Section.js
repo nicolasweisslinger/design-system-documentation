@@ -3,11 +3,11 @@ import styles from '../../css/components/Section.module.scss'
 import Documentation from './Section/Documentation';
 import CodeSnippets from './Section/CodeSnippets';
 
-const Section = () => {
+const Section = ({docs, code}) => {
   return (
     <div className={styles.container}>
-      <Documentation />
-      <CodeSnippets />
+      <Documentation docs={docs}/>
+      <CodeSnippets code={code}/>
     </div>
   );
 };
