@@ -2,11 +2,6 @@ const colors = [
   "#64F1FF", "#4AFF67", "#57B3FF", "#13FFD6"
 ]
 
-// const getRandomColor = (colorArray) => {
-//   return colors[Math.floor(Math.random() * colorArray.length)]
-// }
-
-
 export default {
   "code[class*=\"language-\"]": {
     "color": "#f8f8f2",

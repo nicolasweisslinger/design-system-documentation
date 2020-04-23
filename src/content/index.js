@@ -1,18 +1,35 @@
-import {Documentation as Doc1, codeSnippets as cs1} from './layout-components/header'
-import {Documentation as Doc2, codeSnippets as cs2} from './layout-components/box'
-import {Documentation as Doc3, codeSnippets as cs3} from './layout-components/stack'
+const cache = [{}];
 
-export const layoutComponentsContent = [
+function importAll(r, i) {
+  r.keys().forEach(key => cache[i][key] = r(key));
+}
+
+const pages = [
   {
-    docs: Doc1,
-    code: cs1,
+    pathName: "./layout-components/",
+    routeName: "/layout-components",
+    navName: "Layout Components",
   },
   {
-    docs: Doc2,
-    code: cs2,
-  },
-  {
-    docs: Doc3,
-    code: cs3,
+    pathName: "./atomic-components/",
+    routeName: "/atomic-components",
+    navName: "Atomic Components",
   }
+]
+
+pages.map((child, i) => {
+  importAll(require.context(child.pathName, true, /\.section.js$/), i);
+})
+
+const pagesData = pages.map((child, i) => {
+  Object.keys(cache[i]).map(key => ({ docs: cache[i][key].Documentation, code: cache[i][key].codeSnippets }))
+})
+console.log(pagesData);
+
+export const index = [
+  {
+    routeName: "/layout-components",
+    navName: "Layout Components",
+    content: test
+  },
 ]

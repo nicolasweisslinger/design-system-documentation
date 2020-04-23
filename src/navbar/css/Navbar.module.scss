@@ -1,6 +1,8 @@
+@import '../../utils/tokens/colors.scss';
+
 .container {
   grid-area: navbar;
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: $background-navbar;
 }

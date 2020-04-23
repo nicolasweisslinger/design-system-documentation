@@ -75,5 +75,3 @@ export const codeSnippets = [
   marginTop: 24
 }
 ]
-
-
