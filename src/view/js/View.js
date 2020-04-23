@@ -7,9 +7,9 @@ const Content = () => {
   console.log(layoutComponentsContent)
   return (
     <div className={styles.container}>
-      {layoutComponentsContent.map((child) => {
+      {layoutComponentsContent.map((child, i) => {
         return (
-          <Section docs={child.docs} code={child.code} />
+          <Section key={i} docs={child.docs} code={child.code} />
         )
       })}
       <div className={styles.footer}>

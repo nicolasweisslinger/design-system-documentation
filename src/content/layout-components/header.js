@@ -8,28 +8,16 @@ export const Documentation =
 
 
 export const codeSnippets = [{
-  code: `<Box
-  padding="large"
-  borderRadius="large"
-  shadow="shadow-high-elevation-down"
-  marginVertical={["xx-large","none"]}
->
-  {/* Coucou ma petite booby plume ❤️ */}
-</Box>
+  code: `<LayoutComponent>
+  <ChildComponent1 />
+  <ChildComponent2 />
+  <ChildComponent3 />
+</LayoutComponent>
+// Here, the child components are being
+// laid out by the layout component
+// wrapped around them.
 `,
-  marginTop: 56
-},
-{
-  code: `<Box
-  padding="large"
-  borderRadius="large"
-  shadow="shadow-high-elevation-down"
-  marginVertical={["xx-large","none"]}
->
-  {/* Coucou ma petite booby plume ❤️ */}
-</Box>
-`,
-  marginTop: 56
+  marginTop: 24
 }]
 
 
