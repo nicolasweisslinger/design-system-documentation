@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from '../css/View.module.scss'
 import Section from './components/Section';
-import { index } from '../../content/index';
 import {
   Switch,
   Route,
@@ -12,7 +11,7 @@ const Page = (props) => {
     <div className={styles.container}>
       {props.pages.map((child, i) => {
         return (
-          <Section key={i} docs={child.docs} code={child.code} />
+          <Section key={i} docs={child.Documentation} code={child.codeSnippets} />
         )
       })}
       <div className={styles.footer}>
@@ -25,19 +24,19 @@ const Page = (props) => {
 const Routes = (props) => {
   return (props.index.map((child, i) => {
     return (
-    <Route path={child.routeName}>
+    <Route key={i} path={`/${child.pageName}`}>
       <Page pages={child.content} />
     </Route>
     )
   }))
 }
 
-const Content = () => {
+const View = (props) => {
   return (
     <Switch>
-      <Routes index={index} />
+      <Routes index={props.index} />
     </Switch>
   );
 };
 
-export default Content;
+export default View;

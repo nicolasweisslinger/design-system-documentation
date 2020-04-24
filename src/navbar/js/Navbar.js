@@ -1,14 +1,13 @@
 import React from 'react';
 import styles from '../css/Navbar.module.scss'
 import Item from './components/Item';
-import { index } from '../../content/index'
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <div className={styles.container}>
-            {index.map((child, i) => {
+            {props.index.map((child, i) => {
                 return(
-                <Item key={i} to={child.routeName} label={child.navName} />
+                <Item key={i} to={`/${child.pageName}`} label={child.displayName} />
                 )
             })}
         </div>

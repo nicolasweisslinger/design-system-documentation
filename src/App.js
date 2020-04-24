@@ -6,13 +6,14 @@ import './Bulma.sass'
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
+import { index } from './content/index'
 
 function App() {
   return (
     <Router>
       <div className={styles.app}>
-        <Navbar />
-        <View />
+        <Navbar index={index}/>
+        <View index={index}/>
       </div>
     </Router>
   );

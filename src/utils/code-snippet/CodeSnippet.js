@@ -4,7 +4,6 @@ import syntaxStyle from './brigadStyle';
 import styles from './CodeSnippet.module.scss'
 
 const CodeSnippet = ({snippet}) => {
-  console.log(syntaxStyle)
   return (
     <div className={styles.container}>
       <SyntaxHighlighter language="tsx" style={syntaxStyle}>
