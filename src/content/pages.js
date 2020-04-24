@@ -1,10 +1,10 @@
 export const pages = [
   {
-    folderName: "layout-components",
-    displayName: "Layout Components",
+    folderName: "welcome",
+    displayName: "Welcome !",
   },
   {
-    folderName: "atomic-components",
-    displayName: "Atomic Components",
+    folderName: "layout-components",
+    displayName: "Layout Components",
   }
 ]

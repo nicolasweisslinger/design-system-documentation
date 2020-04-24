@@ -4,6 +4,7 @@ import Section from './components/Section';
 import {
   Switch,
   Route,
+  Redirect,
 } from "react-router-dom";
 
 const Page = (props) => {
@@ -22,13 +23,15 @@ const Page = (props) => {
 }
 
 const Routes = (props) => {
-  return (props.index.map((child, i) => {
-    return (
-    <Route key={i} path={`/${child.pageName}`}>
+  return ([...props.index.map((child, i) =>
+    <Route exact key={i} path={`/${child.pageName}`}>
       <Page pages={child.content} />
     </Route>
-    )
-  }))
+  ),
+  <Route>
+    <Redirect to="/welcome" />
+  </Route>
+  ])
 }
 
 const View = (props) => {
