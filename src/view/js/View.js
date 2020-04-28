@@ -28,7 +28,7 @@ const Routes = (props) => {
     </Route>
   ),
   <Route>
-    <Redirect to={props.index[0].pathName} />
+    <Redirect to={`/${props.index[0].pageName}`} />
   </Route>
   ])
 }
