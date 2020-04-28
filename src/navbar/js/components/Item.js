@@ -1,14 +1,36 @@
 import React from 'react';
 import styles from '../../css/component/Item.module.scss'
 import {
-  NavLink
+  NavLink,
+  useLocation,
 } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link'
+import Collapse from '@kunukn/react-collapse'
 
 const Item = (props) => {
+  const location = useLocation()
   return (
     <NavLink to={props.to} activeClassName={styles.active}>
-      <div className={`${styles.container} is-size-6`}>
-        {props.label}
+      <div className={styles.container}>
+        <div className={`${styles.label} is-size-6`}>
+          {props.label}
+        </div>
+        <div className="collapseContainer">
+          <Collapse
+            isOpen={location.pathname === props.to}
+            transition={`height 200ms`}
+          >
+            {props.anchors && props.anchors.length && <div className={styles.anchorList}>
+              {props.anchors && props.anchors.map((child, i) =>
+                <HashLink key={i} smooth to={`${props.to}#${child.anchor}`}>
+                  <div className={`${styles.anchor} is-size-6`}>
+                    {child.displayName}
+                  </div>
+                </HashLink>
+              )}
+            </div>}
+          </Collapse>
+        </div>
       </div>
     </NavLink>
   );

@@ -5,10 +5,10 @@ import CodeSnippet from '../../../../utils/code-snippet/CodeSnippet'
 const CodeSnippets = ({ code }) => {
   return (
     <div className={styles.container}>
-      {code.map((child, i) => {
+      {code && code.map((child, i) => {
         return (
-          <div key={i} style={{ marginTop: child.marginTop }}>
-            <CodeSnippet snippet={child.code} />
+          <div key={i} style={{ marginTop: child.marginTop || 16, marginBottom: child.marginBottom || 16 }}>
+            <CodeSnippet snippet={child.code} snippetTitle={child.title}/>
           </div>
         )
       })

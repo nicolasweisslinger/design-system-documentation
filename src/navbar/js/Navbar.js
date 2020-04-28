@@ -7,7 +7,7 @@ const Navbar = (props) => {
         <div className={styles.container}>
             {props.index.map((child, i) => {
                 return(
-                <Item key={i} to={`/${child.pageName}`} label={child.displayName} />
+                <Item key={i} to={`/${child.pageName}`} label={child.displayName} anchors={child.anchors}/>
                 )
             })}
         </div>

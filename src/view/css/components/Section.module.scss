@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 5fr 3fr;
   grid-template-areas: "documentation code-snippets";
+  margin-bottom: 70px;
 }

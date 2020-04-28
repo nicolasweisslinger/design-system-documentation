@@ -1,7 +1,7 @@
 import React from 'react';
 const boxExampleLink = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJgpiBcIA8AhCAPAOgOwAS4AcBDKKAS2wHMBeTEAGyICdKY6d8AjCJ2JgJRJkArgGdaDZq3Z5cogBYkIAdwkKlygLTyyleZpj0YANyIAXMhGyaoK7DPwBbKRQmOY5YY5kA+DriQAFTIzIwAJXXkfAEkAckdcClwiXG50AEIkAHpg0JgIvT9sbLR0IpAAXyA"
 
-export const Documentation =
+export const documentation =
   <>
     <h1 className="title is-3 is-spaced">Box</h1>
     <p className="subtitle is-5">The box component is the simplest layout component. It basically sets padding, margin, border radius, and shadow around its child.</p>
@@ -32,8 +32,7 @@ export const codeSnippets = [
 >
   {/* Child goes here */}
 </Box>
-`,
-  marginTop: 16
+`
 },
 {
   code: `padding, margin, borderRadius {
@@ -46,8 +45,7 @@ export const codeSnippets = [
   "xx-large"
 }
 //Defaults to "none"`
-,
-  marginTop: 24
+
 },
 {
   code: `backgroundColor {
@@ -60,8 +58,7 @@ export const codeSnippets = [
   // + all other background colors from the design system
 }
 //Defaults to "none"`
-,
-  marginTop: 24
+
 },
 {
   code: `shadow {
@@ -71,7 +68,8 @@ export const codeSnippets = [
   "shadow-low-elevation-down"
 }
 //Defaults to none
-`,
-  marginTop: 24
+`
 }
 ]
+
+export const anchorId = "box"

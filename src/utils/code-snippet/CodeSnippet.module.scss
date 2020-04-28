@@ -1,9 +1,14 @@
 @import '../tokens/colors.scss';
 
 .container {
+  > .title {
+    margin-left: 24px;
+    margin-bottom: 2px;
+  }
   > pre {
     margin: 0 !important;
     background-color: $background-code !important;
-    padding:24px !important
+    padding:24px !important;
+    border-radius: 24px !important;
   }
 }

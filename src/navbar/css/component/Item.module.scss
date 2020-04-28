@@ -1,12 +1,30 @@
-@import '../../../utils/tokens/colors.scss';
+@import "../../../utils/tokens/colors.scss";
 
 .container {
-  padding: 16px 24px;
+  padding: 16px 16px;
   background-color: $background-navbar;
   color: white;
-}
 
-.active > .container {
-  background-color: white;
-  color: black;
+  .active & {
+    background-color: white;
+    color: $typo-high;
+
+    .label {
+      font-weight: 500;
+    }
+  }
+
+  .anchorList {
+    padding: 8px 0 0 0;
+    visibility: hidden;
+
+    .active & {
+      visibility: visible;
+    }
+
+    .anchor {
+      color: $typo-medium;
+      padding: 4px 0
+    }
+  }
 }

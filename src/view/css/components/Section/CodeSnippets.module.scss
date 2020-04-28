@@ -1,7 +1,5 @@
-@import '../../../../utils/tokens/colors.scss';
-
 .container {
   grid-area: code-snippets;
-  background-color: $background-code;
   overflow: scroll;
+  margin: 0 16px 0 0
 }

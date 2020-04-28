@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './navbar/js/Navbar';
 import View from './view/js/View';
-import styles from './App.module.scss';
 import './Bulma.sass'
+import styles from './App.module.scss';
 import {
   BrowserRouter as Router,
 } from "react-router-dom";

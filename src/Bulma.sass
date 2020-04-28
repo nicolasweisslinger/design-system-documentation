@@ -1,8 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap')
 @import './utils/tokens/colors.scss'
 
-$family-primary: 'Red Hat Text', sans-serif;
-$text-strong: $typo-high;
-$text: $typo-medium;
+
+$family-primary: 'Red Hat Text', sans-serif
+$text-strong: $typo-high
+$dark: $typo-high
+$text: $typo-medium
+
+
+code
+  background-color: $background-light
+  color: rgb(40, 143, 228) !important
+  padding: 2px
+  border-radius: 4px
+  white-space: nowrap
+  .message-body &
+    .is-info &
+      background-color: #d6e4ee
+      color: #1d72aa !important
+    .is-warning &
+      background-color: #f0ebd7
+      color: #947600 !important
+
+p
+  font-size: 1.25rem
+  a
+    color: rgb(40, 143, 228)
+    &:hover
+      text-decoration: underline !important
+      color: rgb(40, 143, 228)
 
 @import '../node_modules/bulma/bulma.sass'

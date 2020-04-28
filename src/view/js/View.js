@@ -12,12 +12,9 @@ const Page = (props) => {
     <div className={styles.container}>
       {props.pages.map((child, i) => {
         return (
-          <Section key={i} docs={child.Documentation} code={child.codeSnippets} />
+          <Section key={i} docs={child.documentation} code={child.codeSnippets} anchorId={child.anchorId}/>
         )
       })}
-      <div className={styles.footer}>
-        <div className={styles.background} />
-      </div>
     </div>
   )
 }

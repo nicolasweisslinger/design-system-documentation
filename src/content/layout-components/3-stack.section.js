@@ -1,10 +1,10 @@
 import React from 'react';
-import imageStackSpace from '../../assets/stack-space.png'
-import imageStackAlign from '../../assets/stack-align.png'
+import imageStackSpace from '../../assets/page-layout-components/stack-space.png'
+import imageStackAlign from '../../assets/page-layout-components/stack-align.png'
 
 const stackExampleLink = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJgpiBcIA8BlALgQzAawAQGcAHLGAXgB0QBbGKASwFcrLcALCAJzoC8IA7TABsAgoLoBzPhRCCYAMzSUAfOT65cSACp00sgHKcqGQUoDqMJAHptumAY5GTq9Vp2yAEhNZLhHC9bcYT3FvZw0bfUNjJXQsbForCLsopz4rWJwVPhAAXyA"
 
-export const Documentation =
+export const documentation =
   <>
     <h1 className="title is-3 is-spaced">Stack</h1>
     <p className="subtitle is-5">As the name suggests, the Stack component "stacks" children. If you need to put things one on top of the other, use this.</p>
@@ -34,8 +34,7 @@ export const codeSnippets = [{
 >
     {/* Children go here */}
 </Stack>
-`,
-  marginTop: 24
+`
 },
 {
   code: `space {
@@ -48,8 +47,6 @@ export const codeSnippets = [{
   "xx-large"
 }
 //Defaults to "none"`
-,
-  marginTop: 24
 },
 {
   code: `horizontalAlign {
@@ -59,9 +56,9 @@ export const codeSnippets = [{
   "stretch",
 }
 //Defaults to stretch
-`,
-  marginTop: 24
+`
 }
 ]
 
 
+export const anchorId = "stack"
