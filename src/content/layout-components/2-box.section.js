@@ -11,7 +11,7 @@ export const documentation =
       </div>
     </article>
     <a href={boxExampleLink} target="_blank" rel="noopener noreferrer">
-      <button className="button is-primary is-light">See playroom example</button>
+      <button className="button is-info is-light">See playroom example</button>
     </a>
   </>
 
@@ -19,15 +19,15 @@ export const documentation =
 export const codeSnippets = [
 {
   code: `<Box
-  backgroundColor
-  borderRadius
-  shadow
-  margin
-  marginVertical
-  marginHorizontal
-  padding
-  paddingHorizontal
-  paddingVertical
+  backgroundColor*
+  borderRadius*
+  shadow*
+  margin*
+  marginVertical*
+  marginHorizontal*
+  padding*
+  paddingHorizontal*
+  paddingVertical*
 
 >
   {/* Child goes here */}

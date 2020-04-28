@@ -24,10 +24,20 @@ code
 
 p
   font-size: 1.25rem
+  // strong
+  //   color: $typo-high
+  //   font-weight: 500
   a
-    color: rgb(40, 143, 228)
+    color: rgb(40, 143, 228) !important
     &:hover
       text-decoration: underline !important
-      color: rgb(40, 143, 228)
+      color: rgb(40, 143, 228) !important
+
+
+strong
+  div &, p &
+    color: $typo-high !important
+    font-weight: 500
+
 
 @import '../node_modules/bulma/bulma.sass'

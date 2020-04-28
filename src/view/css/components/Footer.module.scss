@@ -1,0 +1,14 @@
+@import '../../../utils/tokens/colors.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+  margin-top: 200px;
+  background-color: $background-light;
+  > p {
+    margin: 0 !important
+  }
+}

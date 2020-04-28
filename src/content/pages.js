@@ -26,6 +26,20 @@ export const pages = [
     ]
   },
   {
+    folderName: "getting-started",
+    displayName: "Getting Started",
+    anchors: [
+      {
+        displayName: "Code oriented docs.",
+        anchor: "code-oriented-docs"
+      },
+      {
+        displayName: "Responsive props",
+        anchor: "responsive-props"
+      }
+    ]
+  },
+  {
     folderName: "layout-components",
     displayName: "Layout Components",
     anchors: [

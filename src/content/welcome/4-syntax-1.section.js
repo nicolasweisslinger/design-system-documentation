@@ -5,21 +5,21 @@ export const documentation =
   <>
     <h1 className="title is-3">Syntax <span className="subtitle is-3 has-text-weight-light">Part 1</span></h1>
     <p>If the part about components makes sense to you, then this part will be a piece of cake.</p>
-    <p>Brigad's design system uses a syntax created by React, called JSX, which conveniently mixes HTML syntax to JavaScript. We will only be scratching the surface of this syntax, but if you're curious, you can check out <a rel="noopener noreferrer" target="_blank" href="https://reactjs.org/docs/introducing-jsx.html">React's documentation.</a></p><br />
-    <p>Now let's imagine I want to type code for a checkbox component, with a label that reads "Yes". One thing I know about the checkbox component (or checkbox function), is that it <span className="has-text-weight-medium has-text-dark">accepts one property called "label",</span> which customizes the text to the right of the checkbox.</p>
+    <p>Brigad's design system uses the same syntax as React—JSX—which conveniently mixes HTML syntax to JavaScript. We will only be scratching the surface of this syntax, but if you're curious, you can check out <a rel="noopener noreferrer" target="_blank" href="https://reactjs.org/docs/introducing-jsx.html">React's documentation.</a></p><br />
+    <p>Now let's imagine I want a checkbox component, with a label that reads "Yes". One thing I know about the checkbox component, is that it <strong>accepts one property called "label",</strong> which customizes the text to the right of the checkbox.</p>
     <p>In a standard functional syntax, you could just write <code>checkbox("Yes")</code>.</p>
     <p>But in JSX, you would write <code>{`<Checkbox label="Yes" />`}</code></p>
-    <p>Care to see what this piece of code actually looks like? Fortunately, all our design system components are plugged to an amazing tool called <span className="has-text-weight-medium has-text-dark"> Playroom</span>, which allows us to immediately test out our code. <a rel="noopener noreferrer" target="_blank" href={playroomExample}>Check out the checkbox Playroom!</a></p><br />
     <article className="message is-medium is-warning">
       <div className="message-body">
         Note that in JSX, you must explicitly write which property you are setting on the component. You cannot write down <code>{`<Checkbox "Yes" />`}</code>, you must write <code>{`<Checkbox label="Yes" />`}</code>.
       </div>
     </article>
+    <p>Care to see what this piece of code actually looks like? Fortunately, all our design system components are plugged to an amazing tool called <strong> Playroom</strong>, which allows us to immediately test out our code. <a rel="noopener noreferrer" target="_blank" href={playroomExample}>Check out the checkbox Playroom!</a></p><br />
     <p>So let's break this thing down.</p>
     <p>Every component starts with a <code>{"<"}</code> followed by the name of the component (in this case, <code>Checkbox</code>), followed by all the properties you wish to set for that component, using the <code>{"propertyName = {propertyValue}"}</code> syntax.</p>
     <article className="message is-medium is-info">
       <div className="message-body">
-        In theory, you could write <code>{`<Checkbox label={"Yes"} />`}</code>, but if the <code>propertyValue</code> is a string (the technical word for text), you don't need to use the <code>{"{ }"}</code>
+        In theory, you could write <code>{`<Checkbox label={"Yes"} />`}</code>, but if the <code>propertyValue</code> is a string, you don't need to use the <code>{"{ }"}</code>, you can just write <code>{`<Checkbox label="Yes" />`}</code>
       </div>
     </article>
     <p>Finally, the component ends with a <code>{"/>"}</code>.</p>

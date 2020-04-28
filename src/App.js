@@ -6,7 +6,7 @@ import styles from './App.module.scss';
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
-import { index } from './content/index'
+import { index } from './utils/page-indexer/index'
 
 function App() {
   return (

@@ -6,6 +6,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import Footer from './components/Footer';
 
 const Page = (props) => {
   return (
@@ -15,6 +16,7 @@ const Page = (props) => {
           <Section key={i} docs={child.documentation} code={child.codeSnippets} anchorId={child.anchorId}/>
         )
       })}
+      <Footer />
     </div>
   )
 }

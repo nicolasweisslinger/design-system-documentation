@@ -7,18 +7,18 @@ const stackExampleLink = "https://service-playroom-staging.brigad.tools/#?code=N
 export const documentation =
   <>
     <h1 className="title is-3 is-spaced">Stack</h1>
-    <p className="subtitle is-5">As the name suggests, the Stack component "stacks" children. If you need to put things one on top of the other, use this.</p>
+    <p>As the name suggests, the Stack component "stacks" children. If you need to put things one on top of the other, use this.</p>
     <a href={stackExampleLink} target="_blank" rel="noopener noreferrer">
-      <button class="button is-primary is-light">See playroom example</button>
+      <button class="button is-info is-light">See playroom example</button>
     </a>
     <br/><br/><br/>
-    <p className="subtitle is-5">The <span className="tag is-medium is-info is-light">space</span> property tells the Stack component how much it should space its children.</p>
+    <p>The <code>space</code> property tells the Stack component how much it should space its children.</p>
     <div className="level">
       <div className="level-item">
       <img width="400" alt="stack" src={imageStackSpace} />
       </div>
     </div><br/>
-    <p className="subtitle is-5">The <span className="tag is-medium is-info is-light">horizontalAlign</span> property tells the Stack component how it should align its children on the horizontal plane.</p>
+    <p>The <code>horizontalAlign</code> property tells the Stack component how it should align its children on the horizontal plane.</p>
     <div className="level">
       <div className="level-item">
       <img width="400" alt="stack" src={imageStackAlign} />
@@ -29,8 +29,8 @@ export const documentation =
 
 export const codeSnippets = [{
   code: `<Stack
-  space
-  horizontalAlign
+  space*
+  horizontalAlign*
 >
     {/* Children go here */}
 </Stack>
