@@ -1,6 +1,6 @@
 export const pages = [
   {
-    folderName: "welcome",
+    folderName: "1-welcome",
     displayName: "Welcome !",
     anchors: [
       {
@@ -26,7 +26,7 @@ export const pages = [
     ]
   },
   {
-    folderName: "getting-started",
+    folderName: "2-getting-started",
     displayName: "Getting Started",
     anchors: [
       {
@@ -40,7 +40,7 @@ export const pages = [
     ]
   },
   {
-    folderName: "layout-components",
+    folderName: "3-layout-components",
     displayName: "Layout Components",
     anchors: [
       {

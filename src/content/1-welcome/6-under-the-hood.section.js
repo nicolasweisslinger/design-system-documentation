@@ -19,7 +19,7 @@ export const documentation =
     <p>On the first line of Figure 1 (<code>{"function Stack({ children, space })"}</code>) the <code>children</code> argument refers to anything that will be in between the <code>{"<Stack>"}</code> and <code>{"</Stack>"}</code> tags when the component is being used (Figure 2).</p>
     <p>This is the particularity of React: when you use a React component, children components will be aggragated in an array, and used as the <code>children</code> argument of the <strong>actual Stack function.</strong></p>
     <p>If this still seems a little confusing, consider this:<strong> Figure 4 is entirely equivalent to Figure 2.</strong></p>
-    <p>Technically, every React component could be self-closing, like in Fig. 4, and, if needed, have a <code>children</code> property.</p>
+    <p>Technically, every React component could be self-closing, and have its children as a <code>children</code> property, just like in Figure 4.</p>
     <p>However, the syntax of Figure 2 is more appreciated, because its easier to read, and <strong>sticks to the original HTML syntax.</strong> The message «<code>Component1</code> and <code>Component2</code> are inside <code>Stack</code>» is clearer on Figure 2 than on Figure 4.</p>
     <p><strong>Nonetheless, both syntaxes are completely equivalent.</strong></p><br/>
     <article className="message is-large is-medium is-dark">
