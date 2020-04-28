@@ -5,7 +5,7 @@ export const documentation =
   <>
     <h1 className="title is-4">Responsive props</h1>
     <p>Some components have super-powered props called <strong>responsive props</strong>. They allow you to set 3 different values for 3 screen sizes (mobile, tablet, and desktop) all in one go.</p>
-    <p>In the documentation, responsive props are marked with a <code>*</code>.</p>
+    <p>In this documentation, responsive props are marked with a <code>*</code>.</p>
     <a href={exampleLink} target="_blank" rel="noopener noreferrer">
       <button className="button is-info is-light">See playroom example</button>
     </a>
