@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to the Brigad Design System documentation!
 
-## Available Scripts
+This project was created with [Create React App](https://github.com/facebook/create-react-app). The script to run this project in dev mode is `yarn start`
 
-In the project directory, you can run:
+## File organization
+All of the documentation's content is in the `./content` folder, and assets (such as images) are in the `./assets` folder.
 
-### `yarn start`
+The `./content` folder contains a `pages.js` file, which is a sort of index of all the pages. All the the other folders of contained in `./content` are the websites pages.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Inside a page folder
+A page folder contains files ending in `*.section.js`. These files are sections of a page. Each section contains three modules:
+## Inside a `*.section.js` file
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 1 -  `documentation`
+This is the left part of each page. It uses standard HTML syntax, and is styled with [Bulma](https://bulma.io/documentation/). You can use any of Bulma's css helpers, and add customization in the `Bulma.sass` file at the root of the `src` folder.
+### 2 - `codeSnippets` (optional)
+This is an array of "code snippet" objects to display on the right side of the section. These objects can have 4 keys :
 
-### `yarn test`
+ - `code` : the string of the code snippet, which was automatically be highlighted
+ - `title` : a little string to display on top of the snippet
+ - `marginTop` : number, margin-top in pixels
+ - `marginBottom` : number, margin-bottom in pixels
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3 - `anchorId` (optional)
+The id of what you will later set as the navigation anchor (keep reading).
 
-### `yarn build`
+## Inside the `pages.js` file
+This file is the index of the website. It references all the pages and their navigational data. Once configured, the website and nav bar will automatically be populated with all the referenced data from the `./content` folder.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It's an array of objects which each represent a page. These objects must have 3 keys:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ - `folderName` : must be the exact name of the folder the page sections are in
+ - `displayName` : name displayed in the nav bar
+ - `anchors` : array of anchor objects on the page. Each anchor object has a `displayName`, the name displayed in the nav bar, and an `anchor`, which should be the `anchorId` set in the `.section.js` file
