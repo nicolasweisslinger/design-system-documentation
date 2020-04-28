@@ -28,7 +28,7 @@ const Routes = (props) => {
     </Route>
   ),
   <Route>
-    <Redirect to="/welcome" />
+    <Redirect to={props.index[0].pathName} />
   </Route>
   ])
 }
