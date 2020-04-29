@@ -19,7 +19,7 @@ export const documentation =
 export const codeSnippets = [
 {
   code: `<Box
-  backgroundColor*
+  backgroundColor
   borderRadius*
   shadow*
   margin*
