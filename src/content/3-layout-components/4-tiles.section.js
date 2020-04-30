@@ -8,7 +8,7 @@ const tilesExampleLink2 = "https://service-playroom-staging.brigad.tools/#?code=
 export const documentation =
   <>
     <h1 className="title is-3 is-spaced">Tiles</h1>
-    <p>The Tiles component will automatically lay out its children a grid. Columns are equal fractions of the parent width, and row height is set by the highest child.</p>
+    <p>The Tiles component will automatically lay out its children in a grid. Columns are equal fractions of the parent width, and row height is set by the highest child.</p>
     <a href={tilesExampleLink} target="_blank" rel="noopener noreferrer">
       <button class="button is-info is-light">See playroom example</button>
     </a>
