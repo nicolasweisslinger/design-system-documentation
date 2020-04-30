@@ -40,6 +40,16 @@ export const pages = [
     ]
   },
   {
+    folderName: "4-tokens",
+    displayName: "Tokens",
+    anchors: [
+      {
+        displayName: "Colors",
+        anchor: "colors"
+      },
+    ]
+  },
+  {
     folderName: "3-layout-components",
     displayName: "Layout Components",
     anchors: [
@@ -50,6 +60,10 @@ export const pages = [
       {
         displayName: "Stack",
         anchor:"stack",
+      },
+      {
+        displayName: "Tiles",
+        anchor: "tiles",
       },
     ]
   }

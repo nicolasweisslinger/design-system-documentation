@@ -5,7 +5,7 @@ export const documentation =
   <>
     <h1 className="title is-3 is-spaced">Box</h1>
     <p className="subtitle is-5">The box component is the simplest layout component. It basically sets padding, margin, border radius, and shadow around its child.</p>
-    <article className="message is-warning">
+    <article className="message is-medium is-warning">
       <div className="message-body">
         The box component should only contain one child. That child can very well be another layout component.
       </div>
