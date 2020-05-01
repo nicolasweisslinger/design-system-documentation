@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <div className={styles.app}>
-        <Navbar index={index}/>
-        <View index={index}/>
+        <Navbar index={index} />
+        <View index={index} />
       </div>
     </Router>
   );

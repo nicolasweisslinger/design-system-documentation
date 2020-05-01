@@ -62,14 +62,11 @@ export const codeSnippets = [{
 },
 {
   code: `space {
-  "x-small",
-  "small",
-  "medium",
-  "large",
-  "x-large",
-  "xx-large",
+    "none",
+    ...
+    // all space tokens
 }
-//Defaults to "top"
+//Defaults to "none"
 `
 }
 ]

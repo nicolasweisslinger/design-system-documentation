@@ -35,13 +35,9 @@ export const codeSnippets = [
 },
 {
   code: `padding, margin, borderRadius {
-  "none"
-  "x-small",
-  "small",
-  "medium",
-  "large",
-  "x-large",
-  "xx-large"
+  "none",
+  ...
+  // all space tokens
 }
 //Defaults to "none"`
 
@@ -49,22 +45,17 @@ export const codeSnippets = [
 {
   code: `backgroundColor {
   "none",
-  "background-a-1",
-  "background-a-2",
-  "background-b-1",
-  "background-b-2",
   ...
-  // + all other background colors from the design system
+  // all color tokens
 }
 //Defaults to "none"`
 
 },
 {
   code: `shadow {
-  "none"
-  "shadow-high-elevation-down",
-  "shadow-normal-elevation-down",
-  "shadow-low-elevation-down"
+  "none",
+  ...
+  // all shadow style tokens
 }
 //Defaults to none
 `

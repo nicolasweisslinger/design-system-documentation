@@ -3,7 +3,7 @@ import React from 'react';
 export const documentation =
   <>
     <h1 className="title is-1 is-spaced">Layout components</h1>
-    <h2 className="subtitle is-4">Layout components let you spatially assemble other components.</h2>
+    <p>Layout components let you spatially assemble other components.</p>
   </>
 
 

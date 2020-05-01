@@ -50,13 +50,17 @@ const shadowColors = {
   shadow_normal_elevation_high: "0px -4px 10px rgba(0, 0, 0, 0.15)",
 }
 
+const convertToDash = (word) => {
+  return word.replace(/_/g,"-")
+}
+
 
 const ColorTile = ({ color, name, value }) => {
   return (
     <div style={{ width: '100%', borderRadius: 8, overflow: 'hidden', boxShadow: '0px 11px 22px rgba(0, 0, 0, 0.1)' }}>
       <div style={{ height: 80, backgroundColor: color }} />
       <div style={{ padding: 8 }}>
-        <div className="is-size-7">{name}</div>
+        <div className="is-size-7">{convertToDash(name)}</div>
         <div className="is-size-7">{value}</div>
       </div>
     </div>
@@ -74,7 +78,7 @@ const TypoTile = ({ color, name, value }) => {
         Ab
       </div>
       <div style={{ padding: 8 }}>
-        <div className="is-size-7">{name}</div>
+        <div className="is-size-7">{convertToDash(name)}</div>
         <div className="is-size-7">{value}</div>
       </div>
     </div>
@@ -85,7 +89,7 @@ const OutlineTile = ({ color, name, value }) => {
   return (
     <div style={{ width: '100%', borderRadius: 8, overflow: 'hidden', borderColor: color, borderStyle: 'solid', borderWidth: 2  }}>
       <div style={{ padding: '24px 8px 8px 8px' }}>
-        <div className="is-size-7">{name}</div>
+        <div className="is-size-7">{convertToDash(name)}</div>
         <div className="is-size-7">{value}</div>
       </div>
     </div>
@@ -96,7 +100,7 @@ const ShadowTile = ({ color, name, value }) => {
   return (
     <div style={{ width: '100%', borderRadius: 8, overflow: 'hidden', boxShadow: color, paddingTop: 32 }}>
       <div style={{ padding: 8 }}>
-        <div className="is-size-7">{name}</div>
+        <div className="is-size-7">{convertToDash(name)}</div>
         <div className="is-size-7">{value}</div>
       </div>
     </div>
@@ -130,10 +134,10 @@ export const documentation =
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 24 }}>
       {Object.keys(outlineColors).map((key) => <OutlineTile color={outlineColors[key]} name={key} value={`${outlineColors[key]}`}/>)}
     </div><br/><br/><br/>
-    <h1 className="title is_3 is_spaced">Background Shadows</h1>
+    <h1 className="title is_3 is_spaced">Shadow styles</h1>
     <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 24 }}>
       {Object.keys(shadowColors).map((key) => <ShadowTile color={shadowColors[key]} name={key} value={`${shadowColors[key]}`}/>)}
     </div><br/><br/><br/>
   </>
 
-export const anchors = "colors"
+export const anchorId = "colors"
