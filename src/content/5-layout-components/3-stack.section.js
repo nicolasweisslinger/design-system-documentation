@@ -9,7 +9,7 @@ export const documentation =
     <h1 className="title is-3 is-spaced">Stack</h1>
     <p>As the name suggests, the Stack component "stacks" children. If you need to put things one on top of the other, use this.</p>
     <a href={stackExampleLink} target="_blank" rel="noopener noreferrer">
-      <button class="button is-info is-light">See playroom example</button>
+      <button class="button is-info is-light">See example</button>
     </a>
     <br/><br/><br/>
     <p>The <code>space</code> property tells the Stack component how much it should space its children.</p>
@@ -29,8 +29,8 @@ export const documentation =
 
 export const codeSnippets = [{
   code: `<Stack
-  space*
-  horizontalAlign*
+  space: R
+  horizontalAlign: R
 >
     {/* Children go here */}
 </Stack>

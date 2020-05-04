@@ -5,9 +5,13 @@ export const documentation =
   <>
     <h1 className="title is-4">Responsive props</h1>
     <p>Some components have super-powered props called <strong>responsive props</strong>. They allow you to set 3 different values for 3 screen sizes (mobile, tablet, and desktop) all in one go.</p>
-    <p>In this documentation, responsive props are marked with a <code>*</code>.</p>
+    <article className="message is-medium is-info">
+      <div className="message-body">
+      In this documentation, responsive props are marked with a <code>: R</code>.
+      </div>
+    </article>
     <a href={exampleLink} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See playroom example</button>
+      <button className="button is-info is-light">See example</button>
     </a>
 
   </>
@@ -15,6 +19,14 @@ export const documentation =
 export const anchorId = "responsive-props"
 
 export const codeSnippets = [
+  {
+    code: `<Stack
+  space: R
+>
+    ...
+</Stack>`,
+    title: "space is a responsive prop of Stack"
+  },
   {
     code: `<Stack
   space="small"
@@ -25,7 +37,7 @@ export const codeSnippets = [
 // [768, 1280[ : space = "small"
 // [1280, infinity[ : space = "small"
 `,
-    title: "Non-responsive space prop"
+    title: "No responsiveness"
   },
   {
     code: `<Stack
@@ -37,7 +49,7 @@ export const codeSnippets = [
 // [768, 1280[ : space = "medium"
 // [1280, infinity[ : space = "medium"
 `,
-    title: "Semi responsive space prop"
+    title: "Semi responsiveness"
   },
   {
     code: `<Stack
@@ -49,6 +61,6 @@ export const codeSnippets = [
 // [768, 1280[ : space = "medium"
 // [1280, infinity[ : space = "large"
 `,
-    title: "Full responsive space prop"
+    title: "Full responsiveness"
   }
 ]

@@ -10,9 +10,9 @@ export const documentation =
     <p>As the name suggests, this tool was initially designed to play around with design system components, test them out on multiple breakpoints, and quickly build interfaces.</p>
     <p>This documentation also uses Playroom as a component illustration tool.</p>
     <a href={exampleLink} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See playroom example</button>
+      <button className="button is-info is-light">See example</button>
     </a>
-    <article className="message is-info" style={{ marginTop: 60 }}>
+    <article className="message is-medium is-info" style={{ marginTop: 60 }}>
       <div className="message-body">
         In Playroom, pressing <code>⌘ + K</code> will open up code snippets, little pieces of code you can use right away. This is very convenient to quickly mockup an interface. Once you get the hang of it, using Playroom is faster than using standard design tools 🚀.
       </div>

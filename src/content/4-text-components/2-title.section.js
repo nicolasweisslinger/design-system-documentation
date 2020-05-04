@@ -6,9 +6,9 @@ export const documentation =
   <>
     <h1 className="title is_3 is_spaced">Title</h1>
     <p>Essential to displaying short and important info. Usually at the top of a page.</p>
-    <p>Two variations : <code>{`<TitleNormal />`}</code>, <code>{`<TitleHigh />`}</code></p><br />
+    <p>Two components : <code>{`<TitleNormal />`}</code>, <code>{`<TitleHigh />`}</code></p><br />
     <a href={example} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See playroom example</button>
+      <button className="button is-info is-light">See example</button>
     </a>
   </>
 

@@ -5,11 +5,11 @@ const example = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJg
 export const documentation =
   <>
     <h1 className="title is-1 is-spaced">Text Components</h1>
-    <p>Every piece of text is rendered by a text component. Line height is fixed in pixels, in order to neatly fit other objects of the interface, and make the font easily interchangeable. The line height is the effective height of one line of text.</p>
+    <p>Every piece of text is rendered by a text component. Some text components have two weight variations : "Normal" and "High".</p>
     <p>Try using a combination of these components and colors that maximizes the hierarchical contrast of your interface.</p>
     <br />
     <a href={example} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See playroom example</button>
+      <button className="button is-info is-light">Text combination example</button>
     </a>
   </>
 

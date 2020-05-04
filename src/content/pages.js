@@ -55,11 +55,11 @@ export const pages = [
   },
   {
     folderName: "4-text-components",
-    displayName: "Text Components"
+    displayName: "<Text>"
   },
   {
     folderName: "5-layout-components",
-    displayName: "Layout Components",
+    displayName: "<Layout>",
     anchors: [
       {
         displayName: "Box",
@@ -68,6 +68,10 @@ export const pages = [
       {
         displayName: "Stack",
         anchor:"stack",
+      },
+      {
+        displayName: "Inline",
+        anchor:"inline",
       },
       {
         displayName: "Tiles",
