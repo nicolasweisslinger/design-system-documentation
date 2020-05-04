@@ -22,18 +22,14 @@ const Page = (props) => {
 }
 
 const Routes = (props) => {
-  return (props.index.map((child, i) =>
-    <>
-      <Route exact key={i} path={`/${child.pageName}`}>
-        <Page pages={child.content} />
-      </Route>
-      {i === props.index.length &&
-        <Route>
-          <Redirect to={`/${props.index[0].pageName}`} />
-        </Route>
-      }
-    </>
-  ))
+  return [...props.index.map((child, i) =>
+    <Route exact key={i} path={`/${child.pageName}`}>
+      <Page pages={child.content} />
+    </Route>),
+  <Route>
+    <Redirect to={`/${props.index[0].pageName}`} />
+  </Route>
+  ]
 }
 
 const View = (props) => {
