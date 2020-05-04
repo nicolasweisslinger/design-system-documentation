@@ -22,6 +22,11 @@ export const documentation =
         In theory, you could write <code>{`<Checkbox label={"Yes"} />`}</code>, but if the <code>propertyValue</code> is a string, you don't need to use the <code>{"{ }"}</code>, you can just write <code>{`<Checkbox label="Yes" />`}</code>
       </div>
     </article>
+    <article className="message is-medium is-info">
+      <div className="message-body">
+Also, if the property is a boolean (true/false), writing <code>{`<Component propertyName={true} />`}</code> is the same as writing <code>{`<Component propertyName />`}</code>
+      </div>
+    </article>
     <p>Finally, the component ends with a <code>{"/>"}</code>.</p>
     <p>Piece of cake right?</p>
   </>
@@ -63,10 +68,10 @@ export const codeSnippets = [{
 // Careful, this only works with strings.
 // The following syntax is incorrect because
 // the property's value is a number ❌:
-<Button size=48 />
+<button class="button is-dark">
 
 // Here is the correct syntax ✅ :
-<Button size={48} />
+<button class="button is-dark">
 `,
 },
 ]

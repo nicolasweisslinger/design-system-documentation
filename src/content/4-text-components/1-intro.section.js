@@ -9,7 +9,7 @@ export const documentation =
     <p>Try using a combination of these components and colors that maximizes the hierarchical contrast of your interface.</p>
     <br />
     <a href={example} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">Text combination example</button>
+      <button class="button is-dark">Play text combination</button>
     </a>
   </>
 

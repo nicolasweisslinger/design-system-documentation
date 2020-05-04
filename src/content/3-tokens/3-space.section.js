@@ -36,10 +36,15 @@ const spaceColor = (index, length) => {
 
 export const documentation =
   <>
-    <h1 className="title is_3 is_spaced">Spaces</h1><br/>
+    <h1 className="title is-3 is-spaced">Spaces</h1><br />
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 16, width: 400 }}>
       {Object.keys(spaces).map((key, i) => <SpaceTile color={spaceColor(i, Object.keys(spaces).length)} space={spaces[key]} name={key} value={`${spaces[key]}`} />)}
-    </div>
+    </div><br /><br />
+    <article className="message is-medium is-info">
+      <div className="message-body">
+        Some components can also use negative version of these tokens, by appending the <code>negative-*</code> prefix to the token.
+      </div>
+    </article>
   </>
 
 export const anchorId = "spaces"

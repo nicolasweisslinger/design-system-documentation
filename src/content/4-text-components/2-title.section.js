@@ -8,7 +8,7 @@ export const documentation =
     <p>Essential to displaying short and important info. Usually at the top of a page.</p>
     <p>Two components : <code>{`<TitleNormal />`}</code>, <code>{`<TitleHigh />`}</code></p><br />
     <a href={example} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See example</button>
+      <button class="button is-dark">Play</button>
     </a>
   </>
 

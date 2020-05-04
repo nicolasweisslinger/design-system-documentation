@@ -40,8 +40,6 @@ const outlineColors = {
   outline_normal: "#CFD8DC",
   outline_focus: "#B0BEC5",
   outline_active: "#03A9F4",
-  outline_error: "#C62828",
-  outline_warning: "#F57F17",
 }
 const shadowColors = {
   shadow_high_elevation_down: "0px 11px 22px rgba(0, 0, 0, 0.1)",

@@ -8,7 +8,7 @@ export const documentation =
     <p>Probably has the best size-to-readability ratio. Very small, but ALL CAPS. Good for displaying short and repeated indications, such as labels.</p>
     <p>One component : <code>{`<Overline />`}</code></p><br />
     <a href={example} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See example</button>
+      <button class="button is-dark">Play</button>
     </a>
   </>
 

@@ -11,7 +11,7 @@ export const documentation =
       </div>
     </article>
     <a href={exampleLink} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See example</button>
+      <button class="button is-dark">Play</button>
     </a>
 
   </>

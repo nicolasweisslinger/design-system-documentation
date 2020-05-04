@@ -8,7 +8,7 @@ export const documentation =
     <h1 className="title is-3 is-spaced">Inline</h1>
     <p>The Inline component aligns its children on the horizontal plane, and wraps them if needed.</p>
     <a href={tilesExampleLink} target="_blank" rel="noopener noreferrer">
-      <button class="button is-info is-light">See example</button>
+      <button class="button is-dark">Play</button>
     </a>
     <br /><br /><br />
     <p>The <code>horizontalAlign</code> property sets the horizontal alignement of children on one line.</p>

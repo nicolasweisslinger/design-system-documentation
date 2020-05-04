@@ -7,7 +7,7 @@ export const documentation =
     <p>This is the most common type. It's used pretty much everywhere, and is easy to read.</p>
     <p>Two components : <code>{`<BodyNormal />`}</code>, <code>{`<BodyHigh />`}</code></p><br />
     <a href={example} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See example</button>
+      <button class="button is-dark">Play</button>
     </a>
   </>
 

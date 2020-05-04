@@ -2,8 +2,8 @@ import React from 'react';
 
 export const documentation =
   <>
-    <h1 className="title is-1 is-spaced">Layout components</h1>
-    <p>Layout components let you spatially assemble other components. They are based on the <a rel="noopener noreferrer" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"> Flexbox layout system.</a></p>
+    <h1 className="title is-1 is-spaced">Layout Components</h1>
+    <p>Layout components are made to position and assemble components. They are essentially based on the <a rel="noopener noreferrer" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"> Flexbox layout system.</a></p>
   </>
 
 

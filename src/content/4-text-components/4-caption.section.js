@@ -8,7 +8,7 @@ export const documentation =
     <p>Works well with secondary info. Line height is small, so make sure you don't use it for long paragraphs.</p>
     <p>Two components : <code>{`<CaptionNormal />`}</code>, <code>{`<CaptionHigh />`}</code></p><br />
     <a href={example} target="_blank" rel="noopener noreferrer">
-      <button className="button is-info is-light">See example</button>
+      <button class="button is-dark">Play</button>
     </a>
   </>
 

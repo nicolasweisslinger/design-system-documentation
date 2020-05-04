@@ -10,7 +10,7 @@ export const documentation =
     <h1 className="title is-3 is-spaced">Tiles</h1>
     <p>The Tiles component will automatically lay out its children in a grid. Columns are equal fractions of the parent width, and row height is set by the highest child.</p>
     <a href={tilesExampleLink} target="_blank" rel="noopener noreferrer">
-      <button class="button is-info is-light">See example</button>
+      <button class="button is-dark">Play</button>
     </a>
     <br /><br /><br />
     <p>The <code>columns</code> property sets the number of columns.</p>
@@ -18,7 +18,7 @@ export const documentation =
     <p>The <code>space</code> property sets the spacing between each tile.</p><br/>
     <article className="message is-medium is-info">
       <div className="message-body">
-        Horizontal alignement within a tile can be set by using another layout component, such as <code>Stack</code> or <code>Inline</code>. <a target="_blank" rel="noopener noreferrer" href={tilesExampleLink2}>See example</a>
+        Horizontal alignement within a tile can be set by using another layout component, such as <code>Stack</code> or <code>Inline</code>. <a target="_blank" rel="noopener noreferrer" href={tilesExampleLink2}>Play</a>
       </div>
     </article>
     <br /><br />

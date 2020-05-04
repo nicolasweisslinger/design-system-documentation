@@ -51,6 +51,10 @@ export const pages = [
         displayName: "Spaces",
         anchor: "spaces"
       },
+      {
+        displayName: "Icons",
+        anchor: "icons"
+      },
     ]
   },
   {
@@ -66,6 +70,10 @@ export const pages = [
         anchor:"box",
       },
       {
+        displayName: "Modal",
+        anchor:"modal",
+      },
+      {
         displayName: "Stack",
         anchor:"stack",
       },
@@ -76,6 +84,48 @@ export const pages = [
       {
         displayName: "Tiles",
         anchor: "tiles",
+      },
+      {
+        displayName: "Collapse",
+        anchor: "collapse",
+      },
+    ]
+  },
+  {
+    folderName :"6-control-components",
+    displayName: "<Control>",
+    anchors: [
+      {
+        displayName: "Button",
+        anchor: "button",
+      },
+      {
+        displayName: "MiniButton",
+        anchor: "mini-button",
+      },
+      {
+        displayName: "Checkbox",
+        anchor: "checkbox",
+      },
+      {
+        displayName: "Radio",
+        anchor: "radio",
+      },
+      {
+        displayName: "RadioGroup",
+        anchor: "radio-group",
+      },
+      {
+        displayName: "Switch",
+        anchor: "switch",
+      },
+      {
+        displayName: "Link",
+        anchor: "link",
+      },
+      {
+        displayName: "InteractiveElement",
+        anchor: "interactive-element",
       },
     ]
   }

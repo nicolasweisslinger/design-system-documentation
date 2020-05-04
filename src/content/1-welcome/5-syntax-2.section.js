@@ -26,7 +26,7 @@ export const codeSnippets = [{
   code: `<Stack space="medium">
   <Input label="Name" />
   <Checkbox label="Ok" />
-  <Button label="Register" />
+  <button class="button is-dark">
 </Stack>
 `,
 marginTop: 720,
