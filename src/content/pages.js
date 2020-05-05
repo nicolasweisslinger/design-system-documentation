@@ -128,5 +128,9 @@ export const pages = [
         anchor: "interactive-element",
       },
     ]
+  },
+  {
+    folderName :"7-field-components",
+    displayName: "<Field>",
   }
 ]

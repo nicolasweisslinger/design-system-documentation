@@ -25,7 +25,7 @@ export const codeSnippets = [
 >
     ...
 </Stack>`,
-    title: "space is a responsive prop of Stack"
+    title: "Space is a responsive prop of Stack"
   },
   {
     code: `<Stack

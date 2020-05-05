@@ -12,10 +12,6 @@ const Item = (props) => {
   return (
     <NavLink to={props.to} activeClassName={styles.active}>
       <div className={styles.container}>
-        <div className={styles.notch}>
-          <div className={styles.top} />
-          <div className={styles.bottom} />
-        </div>
         <div className={`${styles.label} is-size-6`}>
           {props.label}
         </div>

@@ -4,7 +4,7 @@
   padding: 8px;
   margin: 8px;
   background-color: $background-navbar;
-  color: white;
+  color: $typo-medium;
   border-radius: 8px;
   position: relative;
 
@@ -32,29 +32,3 @@
   }
 }
 
-.notch {
-  position: absolute;
-  visibility: none;
-  height: 16px;
-  width: 8px;
-  background-color: none;
-  top: 12px;
-  right: -8px;
-  .active > * > & {
-    background-color: white;
-  }
-  > * {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    border-radius: 4px;
-    background-color: $background-navbar;
-    left: 0;
-    &.top {
-      top: -4px;
-    }
-    &.bottom {
-      top: 12px;
-    }
-  }
-}
