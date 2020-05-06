@@ -26,10 +26,10 @@ const Routes = (props) => {
     <Route exact key={i} path={`/${child.pageName}`}>
       <Page pages={child.content} />
     </Route>)
-  //   ,
-  // <Route>
-  //   <Redirect to={`/${props.index[0].pageName}`} />
-  // </Route>
+    ,
+  <Route>
+    <Redirect to={`/${props.index[0].pageName}`} />
+  </Route>
   ]
 }
 

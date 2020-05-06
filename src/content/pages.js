@@ -160,5 +160,27 @@ export const pages = [
         anchor: "file-picker",
       },
     ]
+  },
+  {
+    folderName: "8-display-components",
+    displayName: "<Display>",
+    anchors: [
+      {
+        displayName: "Tag",
+        anchor: "tag"
+      },
+      {
+        displayName: "MiniTag",
+        anchor: "mini-tag"
+      },
+      {
+        displayName: "PolyMessage",
+        anchor: "poly-message",
+      },
+      {
+        displayName: "Table",
+        anchor: "table",
+      },
+    ]
   }
 ]
