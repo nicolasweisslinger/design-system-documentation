@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<!-- saved from url=(0194)https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJgpiBcIA8AxAlgGxgBTWA1jAE4AEAhmGDAA4AuMUAogB70B2AzmhJwLzABtADogAdMwwdmIgDQkRo6mwDmIgLoBfEhjIAjGBgBCRCAHcOMXiICaEEQD4kAenRZcBYvaFsQGoA -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style id="react-native-stylesheet"></style>
+    
+    <title>Playroom | Brigad Playroom</title>
+  <!--<base href="">--><base href="."><meta name="viewport" content="width=device-width, initial-scale=1"><link href="./Playroom _ Brigad Playroom_files/frame_index.chunk.css" rel="stylesheet"><style data-nano-css-dev=""></style><style data-nano-css-dev-tests=""></style><style></style><style>.Preview__root--1V20j {
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 40px 0 30px;
+  text-align: center;
+}
+.Preview__frameContainer--3Wm4K {
+  position: relative;
+  height: 100%;
+  text-align: left;
+  display: inline-flex;
+  flex-direction: column-reverse;
+  margin-right: 40px;
+}
+.Preview__frameContainer--3Wm4K:first-child {
+  margin-left: 40px;
+}
+.Preview__frameBorder--3xam1 {
+  position: absolute;
+  top: 0;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 8px rgba(18, 21, 26, 0.3);
+  transition: opacity 200ms ease, transform 200ms ease;
+  pointer-events: none;
+}
+.Preview__frameContainer--3Wm4K:not(:hover) .Preview__frameBorder--3xam1 {
+  opacity: 0.8;
+}
+.Preview__frameName--C0p72 {
+  flex: 0 0 30px;
+  font: normal 14px Helvetica, arial, sans-serif;
+  color: #515151;
+  line-height: 30px;
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.Preview__frameContainer--3Wm4K:not(:hover) .Preview__frameName--C0p72 {
+  opacity: 0.3;
+}
+.Preview__strong--1lLfL {
+  font-weight: 700;
+}
+.Preview__frame--3vp-a {
+  height: 100%;
+  border: 0;
+  background-color: #fff;
+}
+</style><style>.ViewPreference__root--1pQ9a {
+  padding: 25px 30px;
+}
+.ViewPreference__title--1oFdP {
+  font: bold 16px Helvetica, arial, sans-serif;
+  color: currentColor;
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ViewPreference__reset--1fFpG {
+  font: normal 12px Helvetica, arial, sans-serif;
+  color: currentColor;
+  margin: -10px;
+  padding: 10px;
+  border: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  text-decoration: underline;
+  position: relative;
+}
+.ViewPreference__reset--1fFpG:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 6px;
+  background-color: currentColor;
+  cursor: pointer;
+  opacity: 0;
+  -ms-transform: scale(0.8);
+      transform: scale(0.8);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+:focus.ViewPreference__reset--1fFpG:before,
+:hover.ViewPreference__reset--1fFpG:before {
+  opacity: 0.1;
+  -ms-transform: scale(1);
+      transform: scale(1);
+}
+.ViewPreference__label--338bC {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  cursor: pointer;
+}
+.ViewPreference__labelText--2q1Q9 {
+  font: normal 14px Helvetica, arial, sans-serif;
+  color: currentColor;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.ViewPreference__checkbox--1i0-t {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  opacity: 0;
+  pointer-events: none;
+}
+.ViewPreference__fakeCheckbox--1FrMW {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 16px;
+  width: 16px;
+  padding: 2px;
+  margin-right: 15px;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0px 1px currentColor;
+}
+.ViewPreference__fakeCheckbox--1FrMW::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 0 4px currentColor;
+  transition: opacity 100ms ease, transform 100ms ease;
+  opacity: 0;
+  -ms-transform: scale(0.5);
+      transform: scale(0.5);
+}
+.ViewPreference__checkbox--1i0-t:hover:not(:focus) ~ .ViewPreference__fakeCheckbox--1FrMW::after,
+.ViewPreference__checkbox--1i0-t:focus ~ .ViewPreference__fakeCheckbox--1FrMW::after {
+  opacity: 0.1;
+  -ms-transform: scale(1);
+      transform: scale(1);
+}
+.ViewPreference__fakeCheckbox--1FrMW > svg {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -ms-transform: scale(0.6);
+      transform: scale(0.6);
+  transition: opacity 100ms ease, transform 0s;
+  transition-delay: 0.1s, 0.3s;
+}
+.ViewPreference__checkbox--1i0-t:checked ~ .ViewPreference__fakeCheckbox--1FrMW > svg {
+  opacity: 1;
+  -ms-transform: none;
+      transform: none;
+  transition: opacity 100ms ease, transform 100ms ease;
+}
+</style><style>.SearchField__field--3_Crf {
+  font: normal 16px Helvetica, arial, sans-serif;
+  border: none;
+  width: 100%;
+  padding: 0 15px;
+  height: 44px;
+  background: #fff;
+}
+.SearchField__field--3_Crf:focus {
+  outline: none;
+}
+.SearchField__field--3_Crf::-webkit-input-placeholder {
+  color: #a7a7a7;
+}
+.SearchField__field--3_Crf:-ms-input-placeholder {
+  color: #a7a7a7;
+}
+.SearchField__field--3_Crf::-ms-input-placeholder {
+  color: #a7a7a7;
+}
+.SearchField__field--3_Crf::placeholder {
+  color: #a7a7a7;
+}
+</style><style>.Snippets__root--26DbH {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.Snippets__fieldContainer--wj60a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  box-shadow: inset 0 -1px 0 0 #e8e8e8;
+}
+.Snippets__snippetsContainer--3fNWO {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  margin: 6px;
+  padding: 0;
+}
+.Snippets__snippet--31sgJ {
+  position: relative;
+  padding: 10px 15px;
+  font: normal 16px Helvetica, arial, sans-serif;
+  line-height: 1.3em;
+  cursor: pointer;
+  color: #515151;
+  background-color: #fff;
+}
+.Snippets__snippet--31sgJ:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 90, 210, 0.1);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 300ms ease, transform 300ms ease;
+  pointer-events: none;
+}
+.Snippets__snippetGroup--3u9_O {
+  font-weight: 700;
+}
+.Snippets__snippetName--5mJ6r {
+  display: block;
+  opacity: 0.7;
+}
+.Snippets__highlight--1g06I {
+  color: #005ad2;
+}
+.Snippets__highlight--1g06I:before {
+  opacity: 1;
+}
+</style><style>.ToolbarItem__root--1eofB {
+  position: relative;
+}
+.ToolbarItem__hasSelection--3XhZx {
+  color: #005ad2;
+}
+.ToolbarItem__button--2HDdV {
+  position: relative;
+  border: 0;
+  padding: 0;
+  background-color: #fff;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: currentColor;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+}
+.ToolbarItem__button--2HDdV.ToolbarItem__button_isActive--nR1S7,
+.ToolbarItem__button--2HDdV:hover {
+  color: #005ad2;
+}
+.ToolbarItem__button--2HDdV:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: currentColor;
+  opacity: 0;
+  transition: opacity 300ms ease, transform 300ms ease;
+  pointer-events: none;
+}
+:not(:hover):focus.ToolbarItem__button--2HDdV:before {
+  color: #515151;
+}
+:not(.ToolbarItem__button_isActive--nR1S7):focus.ToolbarItem__button--2HDdV:before,
+:hover.ToolbarItem__button--2HDdV:before {
+  opacity: 0.1;
+}
+.ToolbarItem__button--2HDdV:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 5px;
+  background-color: currentColor;
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+:not(.ToolbarItem__button_isActive--nR1S7).ToolbarItem__button--2HDdV:after {
+  -ms-transform: translateX(100%);
+      transform: translateX(100%);
+  opacity: 0;
+}
+.ToolbarItem__indicator--348M0 {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  height: 18px;
+  width: 18px;
+  background-color: #005ad2;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  color: #fff;
+  font: normal 10px Helvetica, arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  transition: opacity 100ms ease, transform 100ms ease;
+}
+.ToolbarItem__indicator--348M0:not(.ToolbarItem__show--18OOF) {
+  -ms-transform: scale(0);
+      transform: scale(0);
+  opacity: 0;
+}
+.ToolbarItem__status--2sne3 {
+  position: absolute;
+  top: 15px;
+  right: 70px;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  font: normal 14px Helvetica, arial, sans-serif;
+  white-space: nowrap;
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.ToolbarItem__status--2sne3:not(.ToolbarItem__status_show--1Boyh) {
+  opacity: 0;
+  pointer-events: none;
+  -ms-transform: translateX(10px);
+      transform: translateX(10px);
+}
+.ToolbarItem__status--2sne3.ToolbarItem__neutral--3olwV {
+  background-color: #e8e8e8;
+}
+.ToolbarItem__status--2sne3.ToolbarItem__positive--1aEl1 {
+  background-color: #c5f5e9;
+}
+.ToolbarItem__status--2sne3.ToolbarItem__critical--1m1gH {
+  background-color: #fed6e1;
+}
+</style><style>.Toolbar__root--SSy_K {
+  position: relative;
+  height: 100%;
+  min-width: 61px;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #515151;
+  overflow: hidden;
+}
+.Toolbar__root--SSy_K.Toolbar__isOpen--7MJto {
+  width: 100vw;
+}
+.Toolbar__backdrop--3IGPt {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+.Toolbar__sidebar--2hiu9 {
+  position: absolute;
+  display: flex;
+  pointer-events: none;
+  height: 100%;
+  flex-direction: row-reverse;
+}
+.Toolbar__topButtons--AhGtx {
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.Toolbar__topButtons_hide--24xjd {
+  opacity: 0.2;
+  pointer-events: none;
+}
+.Toolbar__positionContainer--2LRh2 {
+  position: absolute;
+  bottom: 60px;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.Toolbar__positionContainer--2LRh2:not(.Toolbar__positions_isOpen--1Txf-) {
+  opacity: 0;
+  pointer-events: none;
+  -ms-transform: translateY(20px);
+      transform: translateY(20px);
+}
+.Toolbar__buttons--3wBph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  pointer-events: auto;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  border-left: 1px solid #e8e8e8;
+}
+.Toolbar__panel--12BrG {
+  position: relative;
+  display: flex;
+  width: 300px;
+  background-color: #fff;
+  border-left: 1px solid #e8e8e8;
+  overflow: auto;
+  transition: opacity 300ms ease, transform 300ms ease;
+  pointer-events: auto;
+}
+.Toolbar__root--SSy_K:not(.Toolbar__isOpen--7MJto) .Toolbar__panel--12BrG {
+  -ms-transform: translateX(90px);
+      transform: translateX(90px);
+  opacity: 0;
+  pointer-events: none;
+}
+.Toolbar__preference--1rfCH {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+</style><style>/* BASICS */
+
+.CodeMirror {
+  /* Set height, width, borders, and global font properties here */
+  font-family: monospace;
+  height: 300px;
+  color: black;
+  direction: ltr;
+}
+
+/* PADDING */
+
+.CodeMirror-lines {
+  padding: 4px 0; /* Vertical padding around content */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  padding: 0 4px; /* Horizontal padding of content */
+}
+
+.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  background-color: white; /* The little square between H and V scrollbars */
+}
+
+/* GUTTER */
+
+.CodeMirror-gutters {
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+}
+.CodeMirror-linenumbers {}
+.CodeMirror-linenumber {
+  padding: 0 3px 0 5px;
+  min-width: 20px;
+  text-align: right;
+  color: #999;
+  white-space: nowrap;
+}
+
+.CodeMirror-guttermarker { color: black; }
+.CodeMirror-guttermarker-subtle { color: #999; }
+
+/* CURSOR */
+
+.CodeMirror-cursor {
+  border-left: 1px solid black;
+  border-right: none;
+  width: 0;
+}
+/* Shown when moving in bi-directional text */
+.CodeMirror div.CodeMirror-secondarycursor {
+  border-left: 1px solid silver;
+}
+.cm-fat-cursor .CodeMirror-cursor {
+  width: auto;
+  border: 0 !important;
+  background: #7e7;
+}
+.cm-fat-cursor div.CodeMirror-cursors {
+  z-index: 1;
+}
+.cm-fat-cursor-mark {
+  background-color: rgba(20, 255, 20, 0.5);
+  -webkit-animation: blink 1.06s steps(1) infinite;
+  -moz-animation: blink 1.06s steps(1) infinite;
+  animation: blink 1.06s steps(1) infinite;
+}
+.cm-animate-fat-cursor {
+  width: auto;
+  border: 0;
+  -webkit-animation: blink 1.06s steps(1) infinite;
+  -moz-animation: blink 1.06s steps(1) infinite;
+  animation: blink 1.06s steps(1) infinite;
+  background-color: #7e7;
+}
+@-moz-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@-webkit-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+
+/* Can style cursor different in overwrite (non-insert) mode */
+.CodeMirror-overwrite .CodeMirror-cursor {}
+
+.cm-tab { display: inline-block; text-decoration: inherit; }
+
+.CodeMirror-rulers {
+  position: absolute;
+  left: 0; right: 0; top: -50px; bottom: 0;
+  overflow: hidden;
+}
+.CodeMirror-ruler {
+  border-left: 1px solid #ccc;
+  top: 0; bottom: 0;
+  position: absolute;
+}
+
+/* DEFAULT THEME */
+
+.cm-s-default .cm-header {color: blue;}
+.cm-s-default .cm-quote {color: #090;}
+.cm-negative {color: #d44;}
+.cm-positive {color: #292;}
+.cm-header, .cm-strong {font-weight: bold;}
+.cm-em {font-style: italic;}
+.cm-link {text-decoration: underline;}
+.cm-strikethrough {text-decoration: line-through;}
+
+.cm-s-default .cm-keyword {color: #708;}
+.cm-s-default .cm-atom {color: #219;}
+.cm-s-default .cm-number {color: #164;}
+.cm-s-default .cm-def {color: #00f;}
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {}
+.cm-s-default .cm-variable-2 {color: #05a;}
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #085;}
+.cm-s-default .cm-comment {color: #a50;}
+.cm-s-default .cm-string {color: #a11;}
+.cm-s-default .cm-string-2 {color: #f50;}
+.cm-s-default .cm-meta {color: #555;}
+.cm-s-default .cm-qualifier {color: #555;}
+.cm-s-default .cm-builtin {color: #30a;}
+.cm-s-default .cm-bracket {color: #997;}
+.cm-s-default .cm-tag {color: #170;}
+.cm-s-default .cm-attribute {color: #00c;}
+.cm-s-default .cm-hr {color: #999;}
+.cm-s-default .cm-link {color: #00c;}
+
+.cm-s-default .cm-error {color: #f00;}
+.cm-invalidchar {color: #f00;}
+
+.CodeMirror-composing { border-bottom: 2px solid; }
+
+/* Default styles for common addons */
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: #0b0;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #a22;}
+.CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); }
+.CodeMirror-activeline-background {background: #e8f2ff;}
+
+/* STOP */
+
+/* The rest of this file contains styles related to the mechanics of
+   the editor. You probably shouldn't touch them. */
+
+.CodeMirror {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.CodeMirror-scroll {
+  overflow: scroll !important; /* Things will break if this is overridden */
+  /* 30px is the magic margin used to hide the element's real scrollbars */
+  /* See overflow: hidden in .CodeMirror */
+  margin-bottom: -30px; margin-right: -30px;
+  padding-bottom: 30px;
+  height: 100%;
+  outline: none; /* Prevent dragging from highlighting the element */
+  position: relative;
+}
+.CodeMirror-sizer {
+  position: relative;
+  border-right: 30px solid transparent;
+}
+
+/* The fake, visible scrollbars. Used to force redraw during scrolling
+   before actual scrolling happens, thus preventing shaking and
+   flickering artifacts. */
+.CodeMirror-vscrollbar, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  position: absolute;
+  z-index: 6;
+  display: none;
+}
+.CodeMirror-vscrollbar {
+  right: 0; top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.CodeMirror-hscrollbar {
+  bottom: 0; left: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.CodeMirror-scrollbar-filler {
+  right: 0; bottom: 0;
+}
+.CodeMirror-gutter-filler {
+  left: 0; bottom: 0;
+}
+
+.CodeMirror-gutters {
+  position: absolute; left: 0; top: 0;
+  min-height: 100%;
+  z-index: 3;
+}
+.CodeMirror-gutter {
+  white-space: normal;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -30px;
+}
+.CodeMirror-gutter-wrapper {
+  position: absolute;
+  z-index: 4;
+  background: none !important;
+  border: none !important;
+}
+.CodeMirror-gutter-background {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 4;
+}
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+.CodeMirror-gutter-wrapper ::selection { background-color: transparent }
+.CodeMirror-gutter-wrapper ::-moz-selection { background-color: transparent }
+
+.CodeMirror-lines {
+  cursor: text;
+  min-height: 1px; /* prevents collapsing before first draw */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  /* Reset some styles that the rest of the page might have set */
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: inherit;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-variant-ligatures: contextual;
+  font-variant-ligatures: contextual;
+}
+.CodeMirror-wrap pre.CodeMirror-line,
+.CodeMirror-wrap pre.CodeMirror-line-like {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+.CodeMirror-linebackground {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  z-index: 0;
+}
+
+.CodeMirror-linewidget {
+  position: relative;
+  z-index: 2;
+  padding: 0.1px; /* Force widget margins to stay inside of the container */
+}
+
+.CodeMirror-widget {}
+
+.CodeMirror-rtl pre { direction: rtl; }
+
+.CodeMirror-code {
+  outline: none;
+}
+
+/* Force content-box sizing for the elements where we expect it */
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.CodeMirror-measure {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.CodeMirror-cursor {
+  position: absolute;
+  pointer-events: none;
+}
+.CodeMirror-measure pre { position: static; }
+
+div.CodeMirror-cursors {
+  visibility: hidden;
+  position: relative;
+  z-index: 3;
+}
+div.CodeMirror-dragcursors {
+  visibility: visible;
+}
+
+.CodeMirror-focused div.CodeMirror-cursors {
+  visibility: visible;
+}
+
+.CodeMirror-selected { background: #d9d9d9; }
+.CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }
+.CodeMirror-crosshair { cursor: crosshair; }
+.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: #d7d4f0; }
+.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #d7d4f0; }
+
+.cm-searching {
+  background-color: #ffa;
+  background-color: rgba(255, 255, 0, .4);
+}
+
+/* Used to force a border model for a node */
+.cm-force-border { padding-right: .1px; }
+
+@media print {
+  /* Hide the cursor when printing */
+  .CodeMirror div.CodeMirror-cursors {
+    visibility: hidden;
+  }
+}
+
+/* See issue #2901 */
+.cm-tab-wrap-hack:after { content: ''; }
+
+/* Help users use markselection to safely style text background */
+span.CodeMirror-selectedtext { background: none; }
+</style><style>/* neo theme for codemirror */
+
+/* Color scheme */
+
+.cm-s-neo.CodeMirror {
+  background-color:#ffffff;
+  color:#2e383c;
+  line-height:1.4375;
+}
+.cm-s-neo .cm-comment { color:#75787b; }
+.cm-s-neo .cm-keyword, .cm-s-neo .cm-property { color:#1d75b3; }
+.cm-s-neo .cm-atom,.cm-s-neo .cm-number { color:#75438a; }
+.cm-s-neo .cm-node,.cm-s-neo .cm-tag { color:#9c3328; }
+.cm-s-neo .cm-string { color:#b35e14; }
+.cm-s-neo .cm-variable,.cm-s-neo .cm-qualifier { color:#047d65; }
+
+
+/* Editor styling */
+
+.cm-s-neo pre {
+  padding:0;
+}
+
+.cm-s-neo .CodeMirror-gutters {
+  border:none;
+  border-right:10px solid transparent;
+  background-color:transparent;
+}
+
+.cm-s-neo .CodeMirror-linenumber {
+  padding:0;
+  color:#e0e2e5;
+}
+
+.cm-s-neo .CodeMirror-guttermarker { color: #1d75b3; }
+.cm-s-neo .CodeMirror-guttermarker-subtle { color: #e0e2e5; }
+
+.cm-s-neo .CodeMirror-cursor {
+  width: auto;
+  border: 0;
+  background: rgba(155,157,162,0.37);
+  z-index: 1;
+}
+</style><style>.CodeEditor__gutter--1WvpQ {
+  width: 30px;
+  background-color: #fff;
+  position: absolute;
+  right: 10px;
+  box-shadow: 0 0 10px 5px #fff;
+}
+.CodeEditor__insertionPoint--27CQh {
+  background-color: rgba(0, 90, 210, 0.1);
+}
+.CodeEditor__marker--39b6l {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #005ad2;
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
+.react-codemirror2 {
+  height: 100%;
+  background-color: #fff;
+}
+.CodeMirror {
+  height: 100%;
+  width: 100%;
+  font-family: Source Code Pro, Firacode, Hasklig, Menlo, monospace;
+  position: relative;
+  z-index: 0;
+}
+.CodeMirror-gutters {
+  width: 40px;
+}
+.CodeMirror-gutter-elt {
+  position: relative;
+}
+.CodeMirror pre, .CodeMirror-linenumber {
+  font-size: 16px;
+}
+.CodeMirror-lines {
+  padding: 16px 0;
+}
+.CodeMirror-hints {
+  position: absolute;
+  z-index: 10;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(18, 21, 26, 0.3);
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 90%;
+  line-height: 150%;
+  font-family: Source Code Pro, Firacode, Hasklig, Menlo, monospace;
+  max-height: 20em;
+  overflow-y: auto;
+}
+.CodeMirror-hint {
+  margin: 0;
+  padding: 4px 8px;
+  border-radius: 2px;
+  white-space: pre;
+  color: #000;
+  cursor: pointer;
+}
+li.CodeMirror-hint-active {
+  background-color: #0088ff;
+  color: #fff;
+}
+.cm-s-neo.CodeMirror {
+  background-color: #fff;
+}
+.cm-s-neo .CodeMirror-cursor {
+  background-color: #000;
+  width: 2px;
+}
+.cm-s-neo .CodeMirror-gutters {
+  background-color: transparent;
+  border: none;
+  pointer-events: none;
+}
+.cm-s-neo .CodeMirror-selected {
+  background: rgba(0, 90, 210, 0.1);
+}
+.cm-s-neo .CodeMirror-linenumber {
+  color: #fff;
+}
+.cm-s-neo .cm-tag {
+  color: #040080;
+}
+.cm-s-neo .cm-attribute {
+  color: #005ad2;
+}
+.cm-s-neo .cm-string {
+  color: #00439c;
+}
+.cm-s-neo .cm-atom {
+  color: #00439c;
+}
+.cm-s-neo .cm-variable {
+  color: #0088ff;
+}
+</style><style>html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+body {
+  margin: 0;
+}
+.Playroom__root--3icQx {
+  height: 100vh;
+  width: 100vw;
+}
+.Playroom__previewContainer--2xzrK {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.Playroom__resizeableContainer--3lyZa {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(18, 21, 26, 0.3);
+}
+.Playroom__resizeableContainer_isRight--kqrmr {
+  top: 0;
+  max-width: 90vw;
+}
+.Playroom__resizeableContainer_isBottom--1Zdaq {
+  left: 0;
+  max-height: 90vh;
+}
+.Playroom__editorContainer--2NTM8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 60px;
+}
+.Playroom__toolbarContainer--3uc5G {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+</style></head>
+  <body>
+  <script src="./Playroom _ Brigad Playroom_files/runtime.js"></script><script src="./Playroom _ Brigad Playroom_files/vendors_frame_index.chunk.js"></script><script src="./Playroom _ Brigad Playroom_files/vendors_index.chunk.js"></script><script src="./Playroom _ Brigad Playroom_files/frame_index.chunk.js"></script><script src="./Playroom _ Brigad Playroom_files/index.chunk.js"></script><div><div class="Playroom__root--3icQx" style=""><div class="Playroom__previewContainer--2xzrK" style="right: 633px;"><div class="Preview__root--1V20j"><div class="Preview__frameContainer--3Wm4K"><div class="Preview__frameBorder--3xam1"></div><div class="Preview__frameName--C0p72" data-testid="frameName"><strong class="Preview__strong--1lLfL">320px</strong></div><iframe class="Preview__frame--3vp-a" data-testid="previewFrame" style="width: 320px; transition: opacity 0.3s ease 0s; opacity: 1;" src="./Playroom _ Brigad Playroom_files/saved_resource.html"></iframe></div><div class="Preview__frameContainer--3Wm4K"><div class="Preview__frameBorder--3xam1"></div><div class="Preview__frameName--C0p72" data-testid="frameName"><strong class="Preview__strong--1lLfL">768px</strong></div><iframe class="Preview__frame--3vp-a" data-testid="previewFrame" style="width: 768px; transition: opacity 0.3s ease 0s; opacity: 1;" src="./Playroom _ Brigad Playroom_files/saved_resource(1).html"></iframe></div><div class="Preview__frameContainer--3Wm4K"><div class="Preview__frameBorder--3xam1"></div><div class="Preview__frameName--C0p72" data-testid="frameName"><strong class="Preview__strong--1lLfL">1280px</strong></div><iframe class="Preview__frame--3vp-a" data-testid="previewFrame" style="width: 1280px; transition: opacity 0.3s ease 0s; opacity: 1;" src="./Playroom _ Brigad Playroom_files/saved_resource(2).html"></iframe></div></div></div><div class="Playroom__resizeableContainer--3lyZa Playroom__resizeableContainer_isRight--kqrmr" style="position: relative; user-select: auto; width: 633px; height: auto; min-width: 440px; min-height: 300px; box-sizing: border-box; flex-shrink: 0;"><div class="Playroom__editorContainer--2NTM8"><div class="react-codemirror2"><div class="CodeMirror cm-s-neo CodeMirror-focused"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 39px; left: 44px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0" data-focusvisible-polyfill="true"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="width: 18px; pointer-events: none;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="height: 18px; pointer-events: auto; right: 0px; left: 40px; display: block;"><div style="height: 100%; min-height: 1px; width: 787px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 40px; margin-bottom: 0px; border-right-width: 30px; min-height: 78px; min-width: 787.328px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like">x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 4px; top: 23px; height: 23px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">FilePicker</span> <span class="cm-attribute">acceptedExtensions</span>={[<span class="cm-string">".xlsx"</span>, <span class="cm-string">".png"</span>]} <span class="cm-attribute">labelBrowse</span>=<span class="cm-string">"Yo"</span><span class="cm-tag cm-bracket">&gt;&lt;/</span><span class="cm-tag">FilePicker</span><span class="cm-tag cm-bracket">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation" style="display: none;"><span role="presentation" style="padding-right: 0.1px;">  <span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">PolyMessage</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; border-bottom: 0px solid transparent; top: 78px;"></div><div class="CodeMirror-gutters" style="height: 108px; left: 0px;"><div class="CodeMirror-gutter CodeEditor__gutter--1WvpQ"></div></div></div></div></div></div><div class="Playroom__toolbarContainer--3uc5G"><div class="Toolbar__root--SSy_K"><div class="Toolbar__sidebar--2hiu9"><div class="Toolbar__buttons--3wBph"><div class="Toolbar__topButtons--AhGtx"><div class="ToolbarItem__root--1eofB"><button data-testid="toggleSnippets" class="ToolbarItem__button--2HDdV" title="Insert snippet (⌘K)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18,11H13V6a1,1,0,0,0-2,0v5H6a1,1,0,0,0,0,2h5v5a1,1,0,0,0,2,0V13h5a1,1,0,0,0,0-2Z"></path></svg></button><div class="ToolbarItem__indicator--348M0"></div><div class="ToolbarItem__status--2sne3 ToolbarItem__critical--1m1gH">Can't insert snippet at cursor</div></div><div class="ToolbarItem__root--1eofB"><button data-testid="toggleWidths" class="ToolbarItem__button--2HDdV" title="Configure widths"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" fill="currentColor"><path d="M3 5a1 1 0 00-1 1v12a1 1 0 002 0V6a1 1 0 00-1-1zm18 0a1 1 0 00-1 1v12a1 1 0 002 0V6a1 1 0 00-1-1zm-2.077 6.618a.999.999 0 00-.217-.326l-1.999-1.999a1 1 0 00-1.414 1.414l.293.293H8.414l.293-.293a1 1 0 00-1.414-1.414l-2 2a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L8.414 13h7.172l-.293.293a1 1 0 101.414 1.414l1.999-1.999a1.003 1.003 0 00.217-1.09z"></path></svg></button><div class="ToolbarItem__indicator--348M0"></div></div><div class="ToolbarItem__root--1eofB"><button data-testid="copyToClipboard" class="ToolbarItem__button--2HDdV" title="Copy link to clipboard"><svg viewBox="0 0 24 24" focusable="false" fill="currentColor" width="24" height="24"><circle cx="18" cy="6" r="2" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"></circle><circle cx="6" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"></circle><circle cx="18" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"></circle><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M8 13l8 4m0-10l-8 4"></path></svg></button><div class="ToolbarItem__indicator--348M0"></div><div class="ToolbarItem__status--2sne3 ToolbarItem__positive--1aEl1">Link copied to clipboard</div></div></div><div class="ToolbarItem__root--1eofB"><button class="ToolbarItem__button--2HDdV" title="Configure editor position"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" fill="currentColor"><path d="M19 4H5a3.003 3.003 0 00-3 3v10a3.003 3.003 0 003 3h14a3.003 3.003 0 003-3V7a3.003 3.003 0 00-3-3zM5 18a1 1 0 01-1-1V7a1 1 0 011-1h11v12z"></path></svg></button><div class="ToolbarItem__indicator--348M0"></div></div><div class="Toolbar__positionContainer--2LRh2"><div hidden=""><div class="ToolbarItem__root--1eofB"><button class="ToolbarItem__button--2HDdV" title="Undock into separate window "><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" fill="currentColor"><path d="M19 4H9a3.003 3.003 0 00-3 3v6a3.003 3.003 0 003 3h10a3.003 3.003 0 003-3V7a3.003 3.003 0 00-3-3zm1 9a1 1 0 01-1 1H9a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1z"></path><path d="M7 18H5a1 1 0 01-1-1V8.184A2.995 2.995 0 002 11v6a3.003 3.003 0 003 3h10a2.995 2.995 0 002.816-2H7z"></path></svg></button><div class="ToolbarItem__indicator--348M0"></div></div></div><div hidden=""><div class="ToolbarItem__root--1eofB"><button class="ToolbarItem__button--2HDdV" title="Dock to bottom"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" fill="currentColor"><path d="M19 4H5a3.003 3.003 0 00-3 3v10a3.003 3.003 0 003 3h14a3.003 3.003 0 003-3V7a3.003 3.003 0 00-3-3zm1 10H4V7a1 1 0 011-1h14a1 1 0 011 1z"></path></svg></button><div class="ToolbarItem__indicator--348M0"></div></div></div></div></div><div class="Toolbar__panel--12BrG"><div hidden="" class="Toolbar__preference--1rfCH"><aside class="ViewPreference__root--1pQ9a" data-testid="widthsPreferences"><h4 class="ViewPreference__title--1oFdP">Widths</h4><label class="ViewPreference__label--338bC" data-children-count="1"><input type="checkbox" class="ViewPreference__checkbox--1i0-t"><div class="ViewPreference__fakeCheckbox--1FrMW"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.7 6.3c-.4-.4-1-.4-1.4 0L9 15.6l-3.3-3.3c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l4 4c.2.2.4.3.7.3s.5-.1.7-.3l10-10c.4-.4.4-1 0-1.4z"></path></svg></div><div class="ViewPreference__labelText--2q1Q9">320</div></label><label class="ViewPreference__label--338bC" data-children-count="1"><input type="checkbox" class="ViewPreference__checkbox--1i0-t"><div class="ViewPreference__fakeCheckbox--1FrMW"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.7 6.3c-.4-.4-1-.4-1.4 0L9 15.6l-3.3-3.3c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l4 4c.2.2.4.3.7.3s.5-.1.7-.3l10-10c.4-.4.4-1 0-1.4z"></path></svg></div><div class="ViewPreference__labelText--2q1Q9">768</div></label><label class="ViewPreference__label--338bC" data-children-count="1"><input type="checkbox" class="ViewPreference__checkbox--1i0-t"><div class="ViewPreference__fakeCheckbox--1FrMW"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.7 6.3c-.4-.4-1-.4-1.4 0L9 15.6l-3.3-3.3c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l4 4c.2.2.4.3.7.3s.5-.1.7-.3l10-10c.4-.4.4-1 0-1.4z"></path></svg></div><div class="ViewPreference__labelText--2q1Q9">1280</div></label></aside></div></div></div></div></div><span><div class="" style="position: absolute; user-select: none; width: 10px; height: 100%; top: 0px; left: -5px; cursor: col-resize;"></div></span></div><div class="__resizable_base__" style="width: 100%; height: 100%; position: absolute; transform: scale(0, 0); left: 0px; flex: 0 1 0%;"></div></div></div>
+</body></html>

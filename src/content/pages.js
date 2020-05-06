@@ -59,7 +59,17 @@ export const pages = [
   },
   {
     folderName: "4-text-components",
-    displayName: "<Text>"
+    displayName: "<Text>",
+    anchors: [
+      {
+        displayName: "Text Components",
+        anchor: "text-components"
+      },
+      {
+        displayName: "Text Helpers",
+        anchor: "text-helpers"
+      },
+    ]
   },
   {
     folderName: "5-layout-components",
@@ -67,19 +77,19 @@ export const pages = [
     anchors: [
       {
         displayName: "Box",
-        anchor:"box",
+        anchor: "box",
       },
       {
         displayName: "Modal",
-        anchor:"modal",
+        anchor: "modal",
       },
       {
         displayName: "Stack",
-        anchor:"stack",
+        anchor: "stack",
       },
       {
         displayName: "Inline",
-        anchor:"inline",
+        anchor: "inline",
       },
       {
         displayName: "Tiles",
@@ -92,7 +102,7 @@ export const pages = [
     ]
   },
   {
-    folderName :"6-control-components",
+    folderName: "6-control-components",
     displayName: "<Control>",
     anchors: [
       {
@@ -130,7 +140,25 @@ export const pages = [
     ]
   },
   {
-    folderName :"7-field-components",
+    folderName: "7-field-components",
     displayName: "<Field>",
+    anchors: [
+      {
+        displayName: "Input",
+        anchor: "input"
+      },
+      {
+        displayName: "TextArea",
+        anchor: "text-area"
+      },
+      {
+        displayName: "Select",
+        anchor: "select",
+      },
+      {
+        displayName: "FilePicker",
+        anchor: "file-picker",
+      },
+    ]
   }
 ]

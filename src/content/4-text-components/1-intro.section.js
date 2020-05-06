@@ -18,6 +18,7 @@ export const codeSnippets = [
   {
     code: `<TextComponent
   color
+  textAlign
 >
   {/* Text goes here */}
 </TextComponent>`
@@ -27,5 +28,13 @@ export const codeSnippets = [
   // all typo and polyvalent color tokens
 }
 // defaults to typo-on-light-high`
+  },
+  {
+    code: `textAlign {
+  "left",
+  "center",
+  "right"
+}
+// defaults to left`
   },
 ]

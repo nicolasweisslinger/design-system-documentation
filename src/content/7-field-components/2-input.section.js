@@ -1,6 +1,6 @@
 import React from 'react';
 
-const example = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJgpiBcIA8AhArgFwxAdgAkgBsIAnAXgB0QAHEgSwFsBDEgTwFodTnCqA+ABIxCxJAHp0WXHxABfIA"
+const example = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJgpiBcIA8BJAdgBwK4BcA6aABIRgDYCGYMAFhKbAE4C8eIKA5ALaHkkVW16MBgEJWBYgGcsAIwAqMAB44WbQmHJEA5gEsAbjB6FSOnDlKHOEBodg5yO0oR0AzQmhgxYUQvACU4kTG5DIwpKoAMiFhgQD0AHwEIAC+QA"
 
 export const documentation =
   <>
@@ -44,4 +44,4 @@ warning: String`
 },
 ]
 
-export const anchorId = "button"
+export const anchorId = "input"

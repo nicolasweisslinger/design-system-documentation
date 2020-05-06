@@ -32,7 +32,7 @@ export const codeSnippets = [
   shadow: R
   margin: R
   marginVertical: R
-  marginHorizontal: R
+  marginHorizontal: R-Negative
   padding: R
   paddingHorizontal: R
   paddingVertical: R

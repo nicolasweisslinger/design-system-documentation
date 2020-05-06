@@ -10,7 +10,13 @@ export const documentation =
     <p>The <code>bold</code> property enables text weight styling.</p>
     <p>The <code>onClick</code> property specifies the click function.</p>
     <p>The <code>disabled</code> property disables the link.</p>
-    <br /><a href={example} target="_blank" rel="noopener noreferrer">
+    <article className="message is-medium is-info">
+      <div className="message-body">
+        In Playroom, the <code>onClick</code> function won't really do anything, Playroom being a templating environment rather than a functional environment. However, you can still <code>console.log</code> things for fun.
+      </div>
+    </article>
+    <br />
+    <a href={example} target="_blank" rel="noopener noreferrer">
       <button class="button is-dark">Play</button>
     </a>
   </>
