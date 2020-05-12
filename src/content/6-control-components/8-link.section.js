@@ -1,6 +1,6 @@
 import React from 'react';
 
-const example = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJgpiBcIA8AZAlgOwNYAICuATgDYC8AOiABYAu1ADgM7wD0zRaAbjAHQPUCG1NGABm7MFgLdIAW2YAmAKwBOZcwDMAdkUBGJQDYtADgD6O-QAYARrCM7N8kxm4ArOgHMKAPjIYcOJAAhaABPADkIAhl+IhxIIkjyEGoQuggAWggMdPZ3GnTKNDzvAEkcAHd+BhxqQgwYKBxMaggcfhx2bCRmYKhwyOiiHwxu9GxhkABfIA";
+const example = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg9gJgpiBcIA8AZAlgOwNYAICuATgDYC8AOiABYAu1ADgM7wD0zA7hwHRsCGDlmAObUIGNDwydIAW3Z0AtJAzUYy5njpEIPKA2YAmAAxHmx5mgDKIsFnkBGYwHYArI-0AWAGz75DMDyIYKHkjdwAOAA87TwBOZ04AKzpBCgA+MgwcHCQAIWgATwA5CAJpAJxILQJyEGp8ugh5UXkiNEEaeQF2tIBJHF4GHGpCDCCcTBEcHhxW7CRmPKgikrKidIx59Gx1kABfIA";
 
 export const documentation =
   <>

@@ -22,7 +22,7 @@ const Item = (props) => {
           {props.anchors && props.anchors.length && <div className={styles.anchorList}>
             {props.anchors && props.anchors.map((child, i) =>
               <HashLink key={i} smooth to={`${props.to}#${child.anchor}`}>
-                <div className={`${styles.anchor} is-size-6`}>
+                <div className={`${styles.anchor} is-size-7`}>
                   {child.displayName}
                 </div>
               </HashLink>
