@@ -8,34 +8,28 @@ export const pages = [
         anchor: "core-principle"
       },
       {
-        displayName: "Components",
-        anchor: "components"
-      },
-      {
-        displayName: "Syntax (part 1)",
-        anchor: "syntax1"
-      },
-      {
-        displayName: "Syntax (part 2)",
-        anchor: "syntax2"
-      },
-      {
-        displayName: "Under the hood",
-        anchor: "under-the-hood"
-      }
-    ]
-  },
-  {
-    folderName: "2-getting-started",
-    displayName: "Getting Started",
-    anchors: [
-      {
-        displayName: "Code oriented docs.",
+        displayName: "Code-oriented docs",
         anchor: "code-oriented-docs"
       },
       {
-        displayName: "Responsive props",
+        displayName: "Anatomy of a component",
+        anchor: "anatomy-of-a-component"
+      },
+      {
+        displayName: "Components with children",
+        anchor: "components-with-children"
+      },
+      {
+        displayName: "Property Syntax",
+        anchor: "property-sytax"
+      },
+      {
+        displayName: "Responsive Props",
         anchor: "responsive-props"
+      },
+      {
+        displayName: "Under the hood 🌶",
+        anchor: "under-the-hood"
       }
     ]
   },

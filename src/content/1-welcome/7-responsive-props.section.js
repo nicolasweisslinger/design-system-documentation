@@ -3,7 +3,7 @@ const exampleLink = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg
 
 export const documentation =
   <>
-    <h1 className="title is-4">Responsive props</h1>
+    <h1 className="title is-3">Responsive properties</h1>
     <p>Some components have super-powered props called <strong>responsive props</strong>. They allow you to set 3 different values for 3 screen sizes (mobile, tablet, and desktop) all in one go.</p>
     <article className="message is-medium is-info">
       <div className="message-body">

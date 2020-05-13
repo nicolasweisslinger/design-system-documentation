@@ -24,7 +24,7 @@ export const documentation =
     <p><strong>Nonetheless, both syntaxes are completely equivalent.</strong></p><br/>
     <article className="message is-large is-medium is-dark">
       <div className="message-body">
-        Again, the design system's components are <strong>nothing more than functions</strong>, and the interface is <strong>a combination</strong> of those functions.
+        The design system's components are <strong>nothing more than functions</strong> that return pieces of interface, and the interface is <strong>a combination</strong> of those functions.
       </div>
     </article>
   </>

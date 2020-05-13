@@ -3,7 +3,7 @@ const exampleLink = "https://service-playroom-staging.brigad.tools/#?code=N4Igxg
 
 export const documentation =
   <>
-    <h1 className="title is-4">Code oriented docs.</h1>
+    <h1 className="title is-3">Code oriented docs.</h1>
     <p>This documentation is code-oriented. Unlike a design system artboard, you will never see a high fidelity illustration of a component on this website.</p>
     <p>The reason for this is that visual illustrations cannot keep up with the pace of development of a design system. They inevitably fall out of sync.</p>
     <p>Instead, we have plugged our design system to an amazing tool called <strong><a rel="noopener noreferrer" href={exampleLink} target="_blank">Playroom</a></strong>, developed by an Australian company called Seek.</p>
