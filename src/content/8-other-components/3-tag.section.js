@@ -26,9 +26,7 @@ export const codeSnippets = [
 `
   },
   {
-    code: `color, backgroundColor {
-  // All color tokens
-}`
+    code: `color, backgroundColor: ColorToken`
   },
 ]
 

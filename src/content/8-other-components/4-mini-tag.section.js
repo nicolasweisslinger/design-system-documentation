@@ -21,20 +21,17 @@ export const codeSnippets = [
   code: `<MiniTag
   color
   backgroundColor
+  icon
 >
   {/* Text goes here */}
 </MiniTag>
 `
 },
 {
-  code: `color, backgroundColor {
-  // All color tokens
-}`
+  code: `color, backgroundColor: ColorToken`
 },
 {
-  code: `icon {
-  // All 16px icon tokens
-}`
+  code: `icon: IconToken16Px`
 },
 ]
 

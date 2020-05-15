@@ -35,6 +35,7 @@ export const codeSnippets = [
   header
   fullHeight
   fullWidth
+  onHide
 >
   {/* Child goes here */}
 </Modal>

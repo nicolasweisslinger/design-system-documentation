@@ -41,31 +41,16 @@ export const codeSnippets = [{
 `
 },
 {
-  code: `columns {
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-}
+  code: `columns: 1 | 2 | 3 | 4 | 5 | 6
 //Defaults to 1`
 },
 {
-  code: `verticalAlign {
-  "top",
-  "center",
-  "bottom",
-}
+  code: `verticalAlign: "top" | "center" | "bottom"
 //Defaults to "top"
 `
 },
 {
-  code: `space {
-    "none",
-    ...
-    // all space tokens
-}
+  code: `space: SpaceToken | "none"
 //Defaults to "none"
 `
 }

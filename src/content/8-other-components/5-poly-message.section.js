@@ -24,12 +24,7 @@ export const codeSnippets = [
 `
 },
 {
-  code: `type {
-  "info",
-  "valid",
-  "danger",
-  "warning",
-}`
+  code: `type: "info" | "valid" | "danger" | "warning"`
 },
 ]
 

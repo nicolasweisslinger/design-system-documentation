@@ -24,15 +24,14 @@ export const codeSnippets = [
   reversed
   block
   loading
+  disabled
 >
   {/* Text goes here */}
 </Button>
 `
 },
 {
-  code: `color {
-  // Any color token
-}`
+  code: `color: ColorToken`
 },
 {
   code: `reversed, block, loading, disabled: Boolean`

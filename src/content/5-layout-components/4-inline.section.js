@@ -33,29 +33,16 @@ export const codeSnippets = [{
 </Inline>`
 },
 {
-  code: `verticalAlign {
-  "top",
-  "center",
-  "bottom",
-}
+  code: `verticalAlign: "top" | "center" | "bottom"
 //Defaults to "center"`
 },
 {
-  code: `horizontalAlign {
-  "left",
-  "center",
-  "right",
-  "space-between",
-  "space-around",
-}
+  code: `horizontalAlign: "left" | "center" | "right" |
+"space-between" | "space-around"
 //Defaults to "left"`
 },
 {
-  code: `space {
-    "none",
-    ...
-    // all space tokens
-}
+  code: `space: SpaceToken | "none"
 //Defaults to "none"`
 }
 ]

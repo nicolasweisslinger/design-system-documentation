@@ -27,14 +27,10 @@ export const codeSnippets = [
 `
 },
 {
-  code: `icon {
-  // Any 24px icon token
-}`
+  code: `icon: IconToken24Px`
 },
 {
-  code: `color {
-  // Any color token
-}`
+  code: `color: ColorToken`
 },
 {
   code: `disabled: Boolean`

@@ -37,20 +37,11 @@ export const codeSnippets = [{
 `
 },
 {
-  code: `space {
-  "none",
-  ...
-  // all space tokens
-}
+  code: `space: SpaceToken | "none"
 //Defaults to "none"`
 },
 {
-  code: `horizontalAlign {
-  "left",
-  "center",
-  "right",
-  "stretch",
-}
+  code: `horizontalAlign: "left" | "center" | "right" | "stretch"
 //Defaults to stretch
 `
 }

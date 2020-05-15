@@ -153,12 +153,20 @@ export const pages = [
         displayName: "FilePicker",
         anchor: "file-picker",
       },
+      {
+        displayName: "BirthDatePicker",
+        anchor: "birth-date-picker",
+      },
     ]
   },
   {
-    folderName: "8-display-components",
-    displayName: "<Display>",
+    folderName: "8-other-components",
+    displayName: "<Other>",
     anchors: [
+      {
+        displayName: "Icon",
+        anchor: "icon"
+      },
       {
         displayName: "Tag",
         anchor: "tag"
@@ -174,6 +182,10 @@ export const pages = [
       {
         displayName: "Table",
         anchor: "table",
+      },
+      {
+        displayName: "RatingStars",
+        anchor: "rating-stars",
       },
     ]
   }

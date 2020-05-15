@@ -14,7 +14,7 @@ export const documentation =
     </a>
     <article className="message is-medium is-info" style={{ marginTop: 60 }}>
       <div className="message-body">
-        In Playroom, pressing <code>⌘ + K</code> will open up code snippets, little pieces of code you can use right away. This is very convenient to quickly mockup an interface. Once you get the hang of it, using Playroom is faster than using standard design tools 🚀.
+        In Playroom, pressing <code>⌘ + K</code> will open up code snippets, little pieces of code you can use right away. This is very convenient to quickly mockup an interface. Once you get the hang of it, using Playroom is faster than using standard design tools 🚀. Also, pressing <code>⌘ + S</code> will auto-format your code (very convienient too).
       </div>
     </article>
   </>

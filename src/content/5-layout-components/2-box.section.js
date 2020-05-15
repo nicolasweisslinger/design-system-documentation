@@ -42,31 +42,16 @@ export const codeSnippets = [
 `
 },
 {
-  code: `padding, margin, borderRadius {
-  "none",
-  ...
-  // all space tokens
-}
+  code: `padding, margin, borderRadius: SpaceToken | "none"
 //Defaults to "none"`
-
 },
 {
-  code: `backgroundColor {
-  "none",
-  ...
-  // all color tokens
-}
+  code: `backgroundColor: ColorToken | "none"
 //Defaults to "none"`
-
 },
 {
-  code: `shadow {
-  "none",
-  ...
-  // all shadow style tokens
-}
-//Defaults to none
-`
+  code: `shadow: ShadowToken | "none"
+//Defaults to none`
 }
 ]
 

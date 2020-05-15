@@ -8,6 +8,10 @@ export const documentation =
     <p>Every piece of text is rendered by a text component. Some text components have two weight variations : "Normal" and "High".</p>
     <p>Try using a combination of these components and colors that maximizes the hierarchical contrast of your interface.</p>
     <br />
+    <p>The <code>color</code> prop sets the color of the text.</p>
+    <p>The <code>textAlign</code> prop sets the horizontal alignement of the text.</p>
+    <p>The <code>ellipsis</code> prop adds a "..." at the end of the first line of text if it ever it gets cropped.</p>
+    <p>The <code>hyphenate</code> prop enables word breaks if words are too long.</p><br />
     <a href={example} target="_blank" rel="noopener noreferrer">
       <button class="button is-dark">Play text combination</button>
     </a>
@@ -19,22 +23,22 @@ export const codeSnippets = [
     code: `<TextComponent
   color
   textAlign
+  ellipsis
+  hyphenate
 >
   {/* Text goes here */}
 </TextComponent>`
   },
   {
-    code: `color {
-  // all typo and polyvalent color tokens
-}
+    code: `color: ColorToken
 // defaults to typo-on-light-high`
   },
   {
-    code: `textAlign {
-  "left",
-  "center",
-  "right"
-}
+    code: `textAlign: "left" | "center" | "right"
 // defaults to left`
+  },
+  {
+    code: `ellipsis, hyphenate: Boolean
+// defaults to false`
   },
 ]
